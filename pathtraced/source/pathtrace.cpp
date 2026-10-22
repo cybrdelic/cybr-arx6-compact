@@ -18,7 +18,11 @@
 #include <stdexcept>
 #include <string>
 #include <vector>
+#ifdef _OPENMP
 #include <omp.h>
+#else
+inline void omp_set_num_threads(int) {}
+#endif
 constexpr float PI=3.14159265358979323846f, INF=1e30f, EPS=0.000004f;
 struct V {
  float x=0,y=0,z=0;
@@ -255,6 +259,7 @@ void render(const Scene&scene,const Frame&f,const std::string&out){
  std::cout<<"FRAME "<<f.index<<" "<<f.w<<"x"<<f.h<<" spp="<<f.spp<<" depth="<<f.maxDepth<<" rays="<<totalRays<<" seconds="<<sec<<" output="<<out<<std::endl;
 }
 int main(int argc,char**argv){try{if(argc<4){std::cerr<<"Usage: pathtrace native.bin frame.bin out.f32 [threads]\n  Or pathtrace native.bin --stream dummy [threads] then stdin: frame.bin out.f32\n";return 2;}omp_set_num_threads(argc>4?std::stoi(argv[4]):4);auto start=std::chrono::steady_clock::now();Scene scene(argv[1]);std::cout<<"BVH_READY "<<std::chrono::duration<double>(std::chrono::steady_clock::now()-start).count()<<std::endl;
- if(std::string(argv[2])=="--stream"){std::string input,output;while(std::cin>>input>>output){Frame f=readFrame(input);scene.setFrame(f);render(scene,f,output);}}
+ if(std::string(argv[2])=="--stream-lines"){std::string input,output;while(std::getline(std::cin,input)){if(!std::getline(std::cin,output))throw std::runtime_error("Missing output path");Frame f=readFrame(input);scene.setFrame(f);render(scene,f,output);}}
+ else if(std::string(argv[2])=="--stream"){std::string input,output;while(std::cin>>input>>output){Frame f=readFrame(input);scene.setFrame(f);render(scene,f,output);}}
  else{Frame f=readFrame(argv[2]);scene.setFrame(f);render(scene,f,argv[3]);}return 0;
  }catch(const std::exception&e){std::cerr<<"ERROR: "<<e.what()<<"\n";return 1;}}

@@ -69,7 +69,7 @@ This standard-library helper verifies each part and restores the original 13,128
 
 ## Run
 
-Use Linux EGL/OpenGL, Node.js, FFmpeg/ffprobe and the pinned Python requirements. The original capture used MuJoCo WASM 3.16.0. Installation and rendering were not rerun as part of this publication review.
+Use the [portable Windows/Linux/macOS setup](PORTABILITY.md) for current bounded checks and native CPU/VTK backend selection. Node.js, FFmpeg/ffprobe and the pinned Python requirements support the full film pipeline. The original capture used MuJoCo WASM 3.16.0. The publication review did not execute these pipelines. Subsequent Windows baseline verification and three-OS CI instructions are recorded in PORTABILITY.md.
 
 From the repository root:
 

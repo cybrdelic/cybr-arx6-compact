@@ -50,3 +50,7 @@ The pipeline requests four native render threads and creates a large linear proo
 Only historical native-log output paths were made relative, and the optional `export_native.py` input-root default was made portable. All rendering, simulation and geometric mathematics are unchanged. `docs/ORIGINAL-MANIFEST-SHA256.json` identifies the original archive bytes, including the omitted compiled binary and unpacked cache, so it is a historical manifest, not a checksum list for this transport layout. `docs/ORIGINAL_README.md` preserves the original delivery notes.
 
 No new project license is granted by publication. The parent dependency/license notes apply; this renderer also depends on the external compiler/OpenMP runtime, NumPy, SciPy, Pillow, Numba and FFmpeg, without vendoring them. The supplied requirements file installs VTK, although only optional cache regeneration needs it; the CPU renderer itself does not use VTK. No third-party font, image model, HDR image or texture library is bundled in this rendering addition.
+
+## Portable build
+
+From the repository root, run `python pathtraced/tools/build_native.py --check --smoke`. See [PORTABILITY.md](../PORTABILITY.md) for Windows/MSVC, Linux/GCC and macOS/Clang setup, optional serial operation, and verification scope. Existing Linux commands above remain historical reproduction details.

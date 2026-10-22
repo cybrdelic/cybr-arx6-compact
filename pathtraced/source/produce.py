@@ -4,6 +4,7 @@ import os,sys,time,json,hashlib,subprocess,re
 from PIL import Image
 import numpy as np
 from denoise import load,filter_frame,display_rgb
+from portable_native import find_native_renderer
 ROOT=Path(__file__).resolve().parents[1]
 def digest(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def run():
@@ -13,7 +14,7 @@ def run():
  started=time.time();timeline=json.loads((ROOT/'reports/timeline.json').read_text());records=[]
  proc=None
  try:
-  proc=subprocess.Popen([str(ROOT/'source/pathtrace'),str(ROOT/'assets/native.bin'),'--stream','unused','4'],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=open(ROOT/'reports/native-stderr.log','w'),text=True,bufsize=1)
+  proc=subprocess.Popen([str(find_native_renderer()),str(ROOT/'assets/native.bin'),'--stream-lines','unused','4'],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=open(ROOT/'reports/native-stderr.log','w'),text=True,bufsize=1)
   first=proc.stdout.readline().strip();print(first,flush=True)
   for entry in timeline:
    i=entry['index'];out=ROOT/'frames'/f'{i:05d}.png';record=ROOT/'reports'/f'frame-{i:05d}.json'
@@ -21,7 +22,7 @@ def run():
     old=json.loads(record.read_text())
     if old.get('png_sha256')==digest(out):records.append(old);continue
    raw=ROOT/'frames'/f'{i:05d}.f32';inp=ROOT/'assets/frame_inputs'/f'{i:05d}.bin';begin=time.time()
-   proc.stdin.write(f'{inp} {raw}\n');proc.stdin.flush()
+   proc.stdin.write(f'{inp}\n{raw}\n');proc.stdin.flush()
    line=proc.stdout.readline().strip()
    if not line.startswith('FRAME '):raise RuntimeError(f'Native render failed: {line}; exit {proc.poll()}')
    a,spp=load(raw)

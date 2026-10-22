@@ -25,14 +25,18 @@ def build(n):
  elif op=='intersection':s=build(ch[0]).intersect(build(ch[1]))
  else:raise ValueError(op)
  cache[key]=s;return s
-out=ROOT/'assets/meshes';out.mkdir(exist_ok=True);reports=[];start=time.time()
-for p in D['parts']:
- f=out/f"{p['id']:03d}.npz"
- if f.exists():continue
- s=build(p['shape']);v,fcs=s.tessellate(.045,.12);v=np.array([x.toTuple() for x in v],dtype='f4');fcs=np.asarray(fcs,dtype='i4')
- if not len(v) or not len(fcs):raise ValueError('Empty '+p['name'])
- np.savez_compressed(f,vertices=v,faces=fcs)
- reports.append({'id':p['id'],'name':p['name'],'vertices':len(v),'triangles':len(fcs),'valid':s.isValid(),'volume_mm3':s.Volume()})
- if p['id']%10==0:print(p['id'],p['name'],'seconds',round(time.time()-start,1),flush=True)
-(ROOT/'reports/native-mesh-build.json').write_text(json.dumps({'source_sha256':hashlib.sha256((ROOT/'assets/design.json').read_bytes()).hexdigest(),'parts':reports,'source_unchanged':True,'linear_deflection_mm':.045,'angular_deflection_rad':.12},indent=2))
-print('DONE',time.time()-start,flush=True)
+def build_all():
+    out=ROOT/'assets/meshes';out.mkdir(exist_ok=True);reports=[];start=time.time()
+    for p in D['parts']:
+     f=out/f"{p['id']:03d}.npz"
+     if f.exists():continue
+     s=build(p['shape']);v,fcs=s.tessellate(.045,.12);v=np.array([x.toTuple() for x in v],dtype='f4');fcs=np.asarray(fcs,dtype='i4')
+     if not len(v) or not len(fcs):raise ValueError('Empty '+p['name'])
+     np.savez_compressed(f,vertices=v,faces=fcs)
+     reports.append({'id':p['id'],'name':p['name'],'vertices':len(v),'triangles':len(fcs),'valid':s.isValid(),'volume_mm3':s.Volume()})
+     if p['id']%10==0:print(p['id'],p['name'],'seconds',round(time.time()-start,1),flush=True)
+    (ROOT/'reports/native-mesh-build.json').write_text(json.dumps({'source_sha256':hashlib.sha256((ROOT/'assets/design.json').read_bytes()).hexdigest(),'parts':reports,'source_unchanged':True,'linear_deflection_mm':.045,'angular_deflection_rad':.12},indent=2))
+    print('DONE',time.time()-start,flush=True)
+
+if __name__ == '__main__':
+    build_all()
