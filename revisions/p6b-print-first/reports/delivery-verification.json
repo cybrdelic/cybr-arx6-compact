@@ -1,0 +1,149 @@
+{
+  "scope": "Six geometric test articles. File topology and build envelope checked, not a qualified whole-arm print conversion.",
+  "inventory_records_reviewed": 398,
+  "all_STL_checks_pass": true,
+  "STL_files": [
+    {
+      "file": "fore-frame-reinforced.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_mesh_volume": true,
+      "mesh_components": 1,
+      "triangles": 14616,
+      "bounds_mm": [
+        [
+          5.0,
+          5.0,
+          7.105427357601002e-15
+        ],
+        [
+          84.0,
+          174.0,
+          72.0
+        ]
+      ],
+      "fits_nominal_256mm_cube": true,
+      "sha256": "913338516cd9c36bb4a0332936567e39b2ef2f9bafd8d1d575c1e94d9bda0f44"
+    },
+    {
+      "file": "gripper-gear-tooth-trial-m1p2-z20.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_mesh_volume": true,
+      "mesh_components": 1,
+      "triangles": 5160,
+      "bounds_mm": [
+        [
+          5.0,
+          5.0,
+          0.0
+        ],
+        [
+          31.399999618530273,
+          31.399999618530273,
+          12.0
+        ]
+      ],
+      "fits_nominal_256mm_cube": true,
+      "sha256": "645ac0bd2800e4a44f27232bedc10918111219b188e770be9991f9d72ae25132"
+    },
+    {
+      "file": "gripper-rack-tooth-trial-m1p2.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_mesh_volume": true,
+      "mesh_components": 1,
+      "triangles": 268,
+      "bounds_mm": [
+        [
+          5.0,
+          5.0,
+          0.0
+        ],
+        [
+          65.3185806274414,
+          12.199999809265137,
+          12.0
+        ]
+      ],
+      "fits_nominal_256mm_cube": true,
+      "sha256": "7c31227793f4c82a1c47c12f26e0ed9f6b550a41ecc0e525e5127ce0a7b13638"
+    },
+    {
+      "file": "upper-frame-distal.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_mesh_volume": true,
+      "mesh_components": 1,
+      "triangles": 13592,
+      "bounds_mm": [
+        [
+          5.005931854248047,
+          5.0,
+          0.0
+        ],
+        [
+          92.99407196044922,
+          180.85000610351562,
+          48.0
+        ]
+      ],
+      "fits_nominal_256mm_cube": true,
+      "sha256": "d928c0f45d9657dcc1f41ef6e63c7f82639374a836be4355243d756c61dacd3b"
+    },
+    {
+      "file": "upper-frame-lap-coupler.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_mesh_volume": true,
+      "mesh_components": 1,
+      "triangles": 6400,
+      "bounds_mm": [
+        [
+          5.0,
+          5.0,
+          0.0
+        ],
+        [
+          52.599998474121094,
+          85.0,
+          31.600000381469727
+        ]
+      ],
+      "fits_nominal_256mm_cube": true,
+      "sha256": "566ab9215d5f29395cb71c18de82625c4ba8b15b1f2819cc47a5eff15ff89e16"
+    },
+    {
+      "file": "upper-frame-proximal.stl",
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_mesh_volume": true,
+      "mesh_components": 1,
+      "triangles": 11996,
+      "bounds_mm": [
+        [
+          5.006331443786621,
+          5.0,
+          0.0
+        ],
+        [
+          70.99366760253906,
+          185.85000610351562,
+          47.0
+        ]
+      ],
+      "fits_nominal_256mm_cube": true,
+      "sha256": "c79ef4b7ed691ea4cbf2e57929198d9f8f2273553c9cd61ac46ab34d4c8b342b"
+    }
+  ],
+  "nominal_three_piece_splice_intersections_checked": true,
+  "new_rigid_body_dynamics_executed": false,
+  "new_whole_arm_FEA_executed": false,
+  "new_thermal_validation_executed": false,
+  "qualified_disassembly_sequence": false,
+  "physical_prints_tested": false,
+  "no_image_generation": true,
+  "new_whole_arm_render": false,
+  "review_HTML_rows": 398,
+  "python_modules_compile": true
+}

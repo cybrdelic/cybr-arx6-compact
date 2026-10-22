@@ -1,0 +1,50 @@
+{
+  "status": "PRINTED_TOOTH_TEST_ARTICLES_ONLY_NOT_INTEGRATED_WITH_ROBOT",
+  "module_mm": 1.2,
+  "teeth": 20,
+  "pressure_angle_degrees": 20,
+  "face_width_mm": 12.0,
+  "tooth_thickness_reduction_mm": 0.1,
+  "pinion_bore_mm": 4.1,
+  "original_module_mm": 0.3,
+  "original_teeth": 20,
+  "pitch_radius_ratio": 4.0,
+  "additional_torque_ratio_for_same_rack_force": 4.0,
+  "fixed_torque_new_rack_force_fraction": 0.25,
+  "rack_tip_nominal_width_mm": 0.9114270299149901,
+  "parts": [
+    {
+      "name": "gripper-gear-tooth-trial-m1p2-z20",
+      "valid_single_solid": true,
+      "STEP_roundtrip_valid": true,
+      "dimensions_mm": [
+        26.4,
+        26.4,
+        12.0
+      ],
+      "volume_mm3": 5073.961698404091,
+      "solid_PETG_mass_g": 6.342452123005114,
+      "STL_sha256": "645ac0bd2800e4a44f27232bedc10918111219b188e770be9991f9d72ae25132"
+    },
+    {
+      "name": "gripper-rack-tooth-trial-m1p2",
+      "valid_single_solid": true,
+      "STEP_roundtrip_valid": true,
+      "dimensions_mm": [
+        60.31857894892403,
+        7.2,
+        12.0
+      ],
+      "volume_mm3": 4239.1288930475475,
+      "solid_PETG_mass_g": 5.2989111163094345,
+      "STL_sha256": "7c31227793f4c82a1c47c12f26e0ed9f6b550a41ecc0e525e5127ce0a7b13638"
+    }
+  ],
+  "limitations": [
+    "Bore is for a 4 mm test mandrel; NOT the original gripper motor shaft interface.",
+    "Larger pinion requires redesigned bridge, racks, jaw passages and controller scaling.",
+    "Tooth roots use simple straight radial transitions; generated trochoid and root relief remain to be designed.",
+    "No rolling contact interference, contact ratio, stress, wear, life or backlash test executed.",
+    "Printed tooth quality and clearance must be measured; STL creation is not a successful print claim."
+  ]
+}

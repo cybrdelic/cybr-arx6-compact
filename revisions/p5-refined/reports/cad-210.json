@@ -1,0 +1,101 @@
+{
+  "id": 210,
+  "name": "upper_service_panel_-1",
+  "material": "aluminum",
+  "operations": [
+    {
+      "operation": "fillet",
+      "label": "rounded panel corners",
+      "radius_or_width_mm": 1.2,
+      "selected_edges": 8
+    },
+    {
+      "operation": "chamfer",
+      "label": "panel perimeter edge break",
+      "radius_or_width_mm": 0.18,
+      "selected_edges": 8
+    }
+  ],
+  "rejected_attempts": [],
+  "original": {
+    "volume_mm3": 9130.646684332996,
+    "mass_kg": 0.02465274604769909,
+    "com_mm": [
+      2.9011124956338827e-15,
+      156.9962375813177,
+      -22.900000000000002
+    ],
+    "inertia_kg_m2": [
+      [
+        3.4497853333287765e-05,
+        2.370067093587504e-22,
+        -3.928096248273507e-22
+      ],
+      [
+        2.370067093587504e-22,
+        4.526330077083796e-06,
+        -3.0174851417541503e-20
+      ],
+      [
+        -3.928096248273507e-22,
+        -3.0174851417541503e-20,
+        3.901493863060372e-05
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -23.5,
+        92.0,
+        -23.65
+      ],
+      [
+        23.5,
+        222.0,
+        -22.15
+      ]
+    ]
+  },
+  "refined": {
+    "volume_mm3": 9117.401888732255,
+    "mass_kg": 0.024616985099577087,
+    "com_mm": [
+      -1.5960594263537777e-15,
+      156.9962321156743,
+      -22.9
+    ],
+    "inertia_kg_m2": [
+      [
+        3.441105264617984e-05,
+        -2.396552397292115e-21,
+        2.7110218070447437e-22
+      ],
+      [
+        -2.396552397292115e-21,
+        4.509720306651888e-06,
+        3.0174851417541503e-20
+      ],
+      [
+        2.7110218070447437e-22,
+        3.0174851417541503e-20,
+        3.891155944441703e-05
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -23.5,
+        92.0,
+        -23.650000000000002
+      ],
+      [
+        23.5,
+        222.0,
+        -22.149999999999974
+      ]
+    ]
+  },
+  "valid": true,
+  "solid_count": 1,
+  "volume_change_percent": -0.14505868049267123,
+  "mechanical_scope": "Review geometry; contacts, fits, strength, dynamics not requalified",
+  "step": "cad/210-upper_service_panel_-1.step"
+}

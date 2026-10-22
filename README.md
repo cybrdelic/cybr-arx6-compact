@@ -1,3 +1,30 @@
+# ARX / 6 · compact mechanism revision history
+
+## Latest recovered source: P6-B print-first checkpoint
+
+The **2026-10-22 21:55 UTC P6-B** delivery contains [actual prototype builders, source BREP inputs, CAD/STL test articles and engineering records](revisions/p6b-print-first/README.md). It audits all 398 component records, identifies 136 printing/redesign targets, and implements **six geometric test articles**: two reinforced upper-frame halves, their coupler, a reinforced forearm and a coarser pinion/rack trial. It is not a finished all-printed robot, integrated transmission, new motion film, powered-operation release or whole-arm validation.
+
+The complete P6-B inputs are bundled. The P5 constructive design and both source BREP files match the Refined archive exactly. Its 36-case uniform-beam comparison is not full CAD FEA or actual TCP accuracy; 12 cases exceed its selected 0.5 mm screen. No archived project code or hardware test was run during publication review.
+
+### Reference media belong to separate older deliveries
+
+![P6-A PETG hero: earlier metal core and transparent covers, not P6-B prototypes](revisions/p6-a-petg/ARX6-P6-PETG-hero-4K.png)
+![P5 Refined metal close-up with actual source preserved separately](revisions/p5-refined/renders/ARX6-P5-Refined-closeup-4K.png)
+
+The P6-A hero comes from the **19:39 UTC** ten-cover/metal-core delivery, whose **25/40 failing thermal-screen cases** remain documented. The close-up comes from **18:41 UTC P5 Refined**, with 123 BREP-refined instances and no new dynamics qualification. Neither image depicts the later P6-B prototypes. Both supplied videos exactly match the earlier 12-second P5 path-traced film already preserved below.
+
+**P6-A implementation recovery is incomplete.** Its authentic STEP, reports and images are available, and P6-B retains its replacement-property inventory. The missing P6-A source archive's builders, revised controller, FEM/thermal code and dielectric renderer are not replaced by that inventory or the posed STEP.
+
+- [Revision boundaries](revisions/README.md)
+- [Image/film to actual source map](revisions/MEDIA-SOURCE-MAP.md)
+- [Exact film-to-code chain and hidden mechanism limits](revisions/FILM-TO-CODE.md)
+- [Actual modules and GEO reuse boundaries](revisions/SOURCE-ARCHITECTURE.md)
+- [Dependency and rights boundaries](revisions/DEPENDENCIES.md)
+
+The earlier sources and films remain intact as lineage. Lossless restoration hashes were verified; rendering, dynamics, installation and hardware qualification were not rerun. No new project-wide license is granted.
+
+## Preserved compact-cartridge P5 baseline
+
 # ARX / 6 · compact-cartridge P5
 
 Constructive CAD, reconstructed contact dynamics, and three preserved cinematic editions of a 278-part compact robot arm. This is a concrete mechanism example, not a separate general-purpose geometry framework and not qualified physical hardware.

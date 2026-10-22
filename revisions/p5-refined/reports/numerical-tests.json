@@ -1,0 +1,1 @@
+{"passed":true,"assertions":50130,"tests":["anisotropic BRDF non-negativity","reciprocity","VNDF direction normalization","64-cell camera sample coverage","procedural texture bounds","texture filter falloff"]}

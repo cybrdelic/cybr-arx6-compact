@@ -1,0 +1,25 @@
+{
+  "source_archive_sha256": "787e920e1e39163dba95c039b2452c45bf7d571b10f0d1456d317c60152534c7",
+  "original_engineering_source_unchanged": true,
+  "normalized_reports": [
+    {
+      "path": "reports/closeup-render.json",
+      "original_sha256": "3b9407ee0d80a09ea23c913046022fe15eb8336740964447c6b8f44d57689bc9",
+      "published_sha256": "e4fe386754689f299a2350b07bb8bedcabf67c53ead282581b32a1602babe852",
+      "change": "Only the original render-directory prefix normalized to renders/; original numerical and engineering content retained."
+    },
+    {
+      "path": "reports/hero-render.json",
+      "original_sha256": "2aa732f3184283104c9967661ba71f1a16c88f3bbf85aa836c10f71b219fc785",
+      "published_sha256": "cf84f9b96355f1a212c56990177f85ecdfaaf6c9b71f45ef491b71f1d65be048",
+      "change": "Only the original render-directory prefix normalized to renders/; original numerical and engineering content retained."
+    },
+    {
+      "path": "reports/proof-render-verification.json",
+      "original_sha256": "532cf05887a3a1cd08ce4cd2c2a22daa69717352feb1fedc9aa4e5ad411f3fa3",
+      "published_sha256": "f40a35cb3ea02b621cfc402750c0af66f1892fdd0d6cccea26547f2e44306860",
+      "change": "Only the original render-directory prefix normalized to renders/; original numerical and engineering content retained."
+    }
+  ],
+  "packaging": "Three large data files losslessly gzip-packed; compiled binaries omitted; original README and archive hash map retained; added stdlib restoration helper and wrapper documentation."
+}

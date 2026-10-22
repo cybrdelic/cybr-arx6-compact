@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+/assets/native.bin
+/assets/refined-native.bin
+/cad/ARX6-P5-Refined-operating-pose.step
+source/pathtrace
+source/test_refined

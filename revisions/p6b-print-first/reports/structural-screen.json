@@ -1,0 +1,895 @@
+{
+  "method": "Euler-Bernoulli bending plus Timoshenko shear, closed rectangular uniform-section surrogates; k_shear=0.8.",
+  "assumptions_not_certification": true,
+  "cases": [
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 10.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 0.006884409804435108,
+      "shear_deflection_mm": 0.00027195027195027195,
+      "total_deflection_mm": 0.00715636007638538,
+      "nominal_root_bending_stress_MPa": 0.39989288583415156,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 25.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 0.01721102451108777,
+      "shear_deflection_mm": 0.0006798756798756799,
+      "total_deflection_mm": 0.01789090019096345,
+      "nominal_root_bending_stress_MPa": 0.9997322145853789,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 50.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 0.03442204902217554,
+      "shear_deflection_mm": 0.0013597513597513598,
+      "total_deflection_mm": 0.0357818003819269,
+      "nominal_root_bending_stress_MPa": 1.9994644291707577,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 10.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 0.316682851004015,
+      "shear_deflection_mm": 0.025252525252525252,
+      "total_deflection_mm": 0.34193537625654025,
+      "nominal_root_bending_stress_MPa": 0.39989288583415156,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 25.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 0.7917071275100375,
+      "shear_deflection_mm": 0.06313131313131314,
+      "total_deflection_mm": 0.8548384406413506,
+      "nominal_root_bending_stress_MPa": 0.9997322145853789,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 50.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 1.583414255020075,
+      "shear_deflection_mm": 0.12626262626262627,
+      "total_deflection_mm": 1.7096768812827012,
+      "nominal_root_bending_stress_MPa": 1.9994644291707577,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 10.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 0.5937803456325281,
+      "shear_deflection_mm": 0.03213957759412305,
+      "total_deflection_mm": 0.6259199232266511,
+      "nominal_root_bending_stress_MPa": 0.39989288583415156,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 25.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 1.48445086408132,
+      "shear_deflection_mm": 0.08034894398530762,
+      "total_deflection_mm": 1.5647998080666277,
+      "nominal_root_bending_stress_MPa": 0.9997322145853789,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 50.0,
+      "A_mm2": 495.0,
+      "I_weak_mm4": 154041.25,
+      "I_strong_mm4": 251281.25,
+      "bending_deflection_mm": 2.96890172816264,
+      "shear_deflection_mm": 0.16069788797061524,
+      "total_deflection_mm": 3.1295996161332553,
+      "nominal_root_bending_stress_MPa": 1.9994644291707577,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 10.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.003596711158927446,
+      "shear_deflection_mm": 0.00012193422519509476,
+      "total_deflection_mm": 0.003718645384122541,
+      "nominal_root_bending_stress_MPa": 0.2089212068591274,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 25.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.008991777897318615,
+      "shear_deflection_mm": 0.0003048355629877369,
+      "total_deflection_mm": 0.00929661346030635,
+      "nominal_root_bending_stress_MPa": 0.5223030171478186,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 50.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.01798355579463723,
+      "shear_deflection_mm": 0.0006096711259754738,
+      "total_deflection_mm": 0.0185932269206127,
+      "nominal_root_bending_stress_MPa": 1.0446060342956371,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 10.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.16544871331066252,
+      "shear_deflection_mm": 0.011322463768115942,
+      "total_deflection_mm": 0.17677117707877846,
+      "nominal_root_bending_stress_MPa": 0.2089212068591274,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 25.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.4136217832766563,
+      "shear_deflection_mm": 0.028306159420289856,
+      "total_deflection_mm": 0.44192794269694613,
+      "nominal_root_bending_stress_MPa": 0.5223030171478186,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 50.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.8272435665533125,
+      "shear_deflection_mm": 0.05661231884057971,
+      "total_deflection_mm": 0.8838558853938923,
+      "nominal_root_bending_stress_MPa": 1.0446060342956371,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 10.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.3102163374574922,
+      "shear_deflection_mm": 0.014410408432147562,
+      "total_deflection_mm": 0.3246267458896398,
+      "nominal_root_bending_stress_MPa": 0.2089212068591274,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 25.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 0.7755408436437305,
+      "shear_deflection_mm": 0.036026021080368904,
+      "total_deflection_mm": 0.8115668647240994,
+      "nominal_root_bending_stress_MPa": 0.5223030171478186,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "upper",
+      "L_mm": 280,
+      "outside_mm": [
+        60,
+        44
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 50.0,
+      "A_mm2": 1104.0,
+      "I_weak_mm4": 294848.0,
+      "I_strong_mm4": 497088.0,
+      "bending_deflection_mm": 1.551081687287461,
+      "shear_deflection_mm": 0.07205204216073781,
+      "total_deflection_mm": 1.623133729448199,
+      "nominal_root_bending_stress_MPa": 1.0446060342956371,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 10.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.002674713176635636,
+      "shear_deflection_mm": 0.0002173913043478261,
+      "total_deflection_mm": 0.0028921044809834618,
+      "nominal_root_bending_stress_MPa": 0.24570959803117307,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 25.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.00668678294158909,
+      "shear_deflection_mm": 0.0005434782608695652,
+      "total_deflection_mm": 0.007230261202458656,
+      "nominal_root_bending_stress_MPa": 0.6142739950779327,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 50.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.01337356588317818,
+      "shear_deflection_mm": 0.0010869565217391304,
+      "total_deflection_mm": 0.014460522404917311,
+      "nominal_root_bending_stress_MPa": 1.2285479901558654,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 10.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.12303680612523926,
+      "shear_deflection_mm": 0.020186335403726708,
+      "total_deflection_mm": 0.14322314152896598,
+      "nominal_root_bending_stress_MPa": 0.24570959803117307,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 25.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.30759201531309815,
+      "shear_deflection_mm": 0.05046583850931677,
+      "total_deflection_mm": 0.35805785382241495,
+      "nominal_root_bending_stress_MPa": 0.6142739950779327,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 50.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.6151840306261963,
+      "shear_deflection_mm": 0.10093167701863354,
+      "total_deflection_mm": 0.7161157076448299,
+      "nominal_root_bending_stress_MPa": 1.2285479901558654,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 10.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.23069401148482363,
+      "shear_deflection_mm": 0.025691699604743084,
+      "total_deflection_mm": 0.2563857110895667,
+      "nominal_root_bending_stress_MPa": 0.24570959803117307,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 25.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 0.5767350287120591,
+      "shear_deflection_mm": 0.06422924901185771,
+      "total_deflection_mm": 0.6409642777239167,
+      "nominal_root_bending_stress_MPa": 0.6142739950779327,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 2.5,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 50.0,
+      "A_mm2": 575.0,
+      "I_weak_mm4": 317447.9166666667,
+      "I_strong_mm4": 317447.9166666667,
+      "bending_deflection_mm": 1.1534700574241181,
+      "shear_deflection_mm": 0.12845849802371542,
+      "total_deflection_mm": 1.2819285554478335,
+      "nominal_root_bending_stress_MPa": 1.2285479901558654,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 10.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.0013316178071424657,
+      "shear_deflection_mm": 9.645061728395061e-05,
+      "total_deflection_mm": 0.0014280684244264163,
+      "nominal_root_bending_stress_MPa": 0.12232761216501054,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 25.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.0033290445178561644,
+      "shear_deflection_mm": 0.00024112654320987653,
+      "total_deflection_mm": 0.0035701710610660407,
+      "nominal_root_bending_stress_MPa": 0.30581903041252634,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "aluminum_reference_assumption",
+      "E_MPa": 69000,
+      "G_MPa": 26000,
+      "force_N": 50.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.006658089035712329,
+      "shear_deflection_mm": 0.00048225308641975306,
+      "total_deflection_mm": 0.007140342122132081,
+      "nominal_root_bending_stress_MPa": 0.6116380608250527,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 10.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.06125441912855342,
+      "shear_deflection_mm": 0.008956128747795415,
+      "total_deflection_mm": 0.07021054787634884,
+      "nominal_root_bending_stress_MPa": 0.12232761216501054,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 25.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.15313604782138357,
+      "shear_deflection_mm": 0.022390321869488534,
+      "total_deflection_mm": 0.1755263696908721,
+      "nominal_root_bending_stress_MPa": 0.30581903041252634,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_nominal_screen_assumption",
+      "E_MPa": 1500,
+      "G_MPa": 280,
+      "force_N": 50.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.30627209564276714,
+      "shear_deflection_mm": 0.04478064373897707,
+      "total_deflection_mm": 0.3510527393817442,
+      "nominal_root_bending_stress_MPa": 0.6116380608250527,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 10.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.11485203586603768,
+      "shear_deflection_mm": 0.011398709315375982,
+      "total_deflection_mm": 0.12625074518141366,
+      "nominal_root_bending_stress_MPa": 0.12232761216501054,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 25.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.2871300896650942,
+      "shear_deflection_mm": 0.028496773288439955,
+      "total_deflection_mm": 0.31562686295353415,
+      "nominal_root_bending_stress_MPa": 0.30581903041252634,
+      "below_chosen_0p5mm_surrogate_threshold": true,
+      "not_whole_arm_result": true
+    },
+    {
+      "link_surrogate": "fore",
+      "L_mm": 260,
+      "outside_mm": [
+        60,
+        60
+      ],
+      "wall_mm": 6.0,
+      "property_set": "PETG_lower_stiffness_sensitivity",
+      "E_MPa": 800,
+      "G_MPa": 220,
+      "force_N": 50.0,
+      "A_mm2": 1296.0,
+      "I_weak_mm4": 637632.0,
+      "I_strong_mm4": 637632.0,
+      "bending_deflection_mm": 0.5742601793301884,
+      "shear_deflection_mm": 0.05699354657687991,
+      "total_deflection_mm": 0.6312537259070683,
+      "nominal_root_bending_stress_MPa": 0.6116380608250527,
+      "below_chosen_0p5mm_surrogate_threshold": false,
+      "not_whole_arm_result": true
+    }
+  ],
+  "section_second_moment_improvement_factor": {
+    "upper": 1.9140847013381157,
+    "fore": 2.0086192616899097
+  },
+  "compliance_sensitivity": [
+    {
+      "link_surrogate": "upper",
+      "load_N": 25,
+      "compliance_factor": 1,
+      "deflection_mm": 0.44192794269694613,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    },
+    {
+      "link_surrogate": "upper",
+      "load_N": 25,
+      "compliance_factor": 2,
+      "deflection_mm": 0.8838558853938923,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    },
+    {
+      "link_surrogate": "upper",
+      "load_N": 25,
+      "compliance_factor": 4,
+      "deflection_mm": 1.7677117707877845,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    },
+    {
+      "link_surrogate": "upper",
+      "load_N": 25,
+      "compliance_factor": 8,
+      "deflection_mm": 3.535423541575569,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    },
+    {
+      "link_surrogate": "fore",
+      "load_N": 25,
+      "compliance_factor": 1,
+      "deflection_mm": 0.1755263696908721,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    },
+    {
+      "link_surrogate": "fore",
+      "load_N": 25,
+      "compliance_factor": 2,
+      "deflection_mm": 0.3510527393817442,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    },
+    {
+      "link_surrogate": "fore",
+      "load_N": 25,
+      "compliance_factor": 4,
+      "deflection_mm": 0.7021054787634884,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    },
+    {
+      "link_surrogate": "fore",
+      "load_N": 25,
+      "compliance_factor": 8,
+      "deflection_mm": 1.4042109575269768,
+      "elapsed_time_s": null,
+      "not_lifetime_prediction": true
+    }
+  ],
+  "analytic_code_checks": [
+    {
+      "name": "upper linear-load scaling",
+      "passed": true
+    },
+    {
+      "name": "upper thick-wall greater section stiffness",
+      "passed": true
+    },
+    {
+      "name": "fore linear-load scaling",
+      "passed": true
+    },
+    {
+      "name": "fore thick-wall greater section stiffness",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Section dimensions describe reinforced tube spans, but the surrogate extends uniformly across each kinematic link length.",
+    "Real flange roots, stepped geometry, printed layer defects, joint splice, bearing seats and fasteners are omitted.",
+    "Radii, holes and nut pockets omitted from closed-form section properties; not CAD-exact stress results.",
+    "A 0.5 mm screen is an arbitrary comparison threshold for this surrogate, not a released robot accuracy requirement.",
+    "Compliance multipliers have no time or temperature calibration; no creep lifetime is predicted.",
+    "Local 1.25 g/cm3 density is a prototype assumption; real sliced fill, print and moisture alter properties.",
+    "Do not transfer old metal-frame motion/thermal qualification to the printed arm."
+  ]
+}

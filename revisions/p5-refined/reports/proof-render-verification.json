@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "camera": {
+      "index": 0,
+      "time": 2.5,
+      "eye": [
+        0.03183352037624779,
+        0.6255540253035119,
+        1.0970692326415823
+      ],
+      "target": [
+        0.145,
+        0.235,
+        0.0
+      ],
+      "fov": 33,
+      "aperture": 0.00045,
+      "spp": 64,
+      "max_depth": 8,
+      "width": 3840,
+      "height": 2160,
+      "explode": 0
+    },
+    "native_resolution": [
+      3840,
+      2160
+    ],
+    "delivery_resolution": [
+      1920,
+      1080
+    ],
+    "uniform_camera_paths_per_native_pixel": 64,
+    "nominal_camera_paths_per_output_pixel": 256,
+    "maximum_surface_interactions": 8,
+    "sampling": "8x8 spatial stratification at 2x linear resolution; thin-lens rays",
+    "texture_sampling": "band-limited procedural roughness and bump in rigid-body coordinates; approximate scalar footprint, not full ray differentials",
+    "transport": "anisotropic GGX VNDF with Smith masking, emitter NEE, power-heuristic MIS, diffuse/glossy secondary paths",
+    "denoising": "Three geometry-guided spatial a-trous passes at native 4K",
+    "reconstruction": "Lanczos downsample in linear radiance, followed by filmic mapping and sRGB encoding",
+    "native_log": "BVH_READY 1.24403\nFRAME 0 3840x2160 spp=64 depth=8 rays=1690560390 seconds=184.736 output=renders/hero.f32\n",
+    "seconds": 195.27044367790222,
+    "paths_histogram": {
+      "64": 8294400
+    },
+    "png_sha256": "229fec14c90a79864e6a852a48b210d0a3be30c47c5f0051d211203101b4d9c8",
+    "master_sha256": "17ec6faf94634d8fdfd659ca770dfcca625a14d2370a98037dcbc05d0957d356",
+    "native_geometry_sha256": "0cd8b69794c1dfd5c45a0ee7bda40bde0ec71e95013cc1f221dc8308218bb71d",
+    "render_source_sha256": "3242ecb2f0e4735b02afe4209bdd0cd8bc471e444a794d87200eb72d328dc10f",
+    "geometry_generated_images": false,
+    "rasterization": false
+  },
+  "closeup": {
+    "camera": {
+      "index": 1,
+      "time": 2.5,
+      "eye": [
+        0.32213420249213254,
+        0.5450924627382838,
+        0.3991947870121188
+      ],
+      "target": [
+        0.0671342024921325,
+        0.39509246273828386,
+        0.0391947870121188
+      ],
+      "fov": 32,
+      "aperture": 0.00022,
+      "spp": 64,
+      "max_depth": 8,
+      "width": 3840,
+      "height": 2160,
+      "explode": 0
+    },
+    "native_resolution": [
+      3840,
+      2160
+    ],
+    "delivery_resolution": [
+      1920,
+      1080
+    ],
+    "uniform_camera_paths_per_native_pixel": 64,
+    "nominal_camera_paths_per_output_pixel": 256,
+    "maximum_surface_interactions": 8,
+    "sampling": "8x8 spatial stratification at 2x linear resolution; thin-lens rays",
+    "texture_sampling": "band-limited procedural roughness and bump in rigid-body coordinates; approximate scalar footprint, not full ray differentials",
+    "transport": "anisotropic GGX VNDF with Smith masking, emitter NEE, power-heuristic MIS, diffuse/glossy secondary paths",
+    "denoising": "Three geometry-guided spatial a-trous passes at native 4K",
+    "reconstruction": "Lanczos downsample in linear radiance, followed by filmic mapping and sRGB encoding",
+    "native_log": "BVH_READY 1.00499\nFRAME 1 3840x2160 spp=64 depth=8 rays=1794924828 seconds=247.913 output=renders/closeup.f32\n",
+    "seconds": 258.38163661956787,
+    "paths_histogram": {
+      "64": 8294400
+    },
+    "png_sha256": "976bfe56b4b493ba099a2e1813e0f67bcb9fb8bcf744ac1c280f6c8979873e4d",
+    "master_sha256": "865d1a308444b5535f02c3747c32b7d09805c3ac528e913d7f1c35ed8a287c4f",
+    "native_geometry_sha256": "0cd8b69794c1dfd5c45a0ee7bda40bde0ec71e95013cc1f221dc8308218bb71d",
+    "render_source_sha256": "3242ecb2f0e4735b02afe4209bdd0cd8bc471e444a794d87200eb72d328dc10f",
+    "geometry_generated_images": false,
+    "rasterization": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "lossless-gzip-parts/v1",
+  "files": [
+    {
+      "path": "assets/native.bin",
+      "bytes": 56022040,
+      "sha256": "7c2db656ec1fe131df8a8761558458871440f5bad7b2ded5ba4081c77c0be29c",
+      "gzip_bytes": 13370941,
+      "gzip_sha256": "da5ce772a64c69a1914a972e160ab23f0283d861746e6315ba4ff14912d0b4b3",
+      "parts": [
+        {
+          "path": "assets/native.bin.gz.parts/part-000",
+          "bytes": 8388608,
+          "sha256": "39287ca7f308e40b049defe281049d6cbca08f09c530b9c7ae4c12b2201b381b"
+        },
+        {
+          "path": "assets/native.bin.gz.parts/part-001",
+          "bytes": 4982333,
+          "sha256": "ee4a4b7a67a6231785a44ff583e03a48a6e5b82f21bbd6c0eae3ad9ff0bfacdf"
+        }
+      ]
+    },
+    {
+      "path": "assets/refined-native.bin",
+      "bytes": 118435240,
+      "sha256": "0cd8b69794c1dfd5c45a0ee7bda40bde0ec71e95013cc1f221dc8308218bb71d",
+      "gzip_bytes": 27553398,
+      "gzip_sha256": "cf74af6ad72c42ebc6a91e3b78d027314f761f5a6023b82ee36b35cd25c1f3ca",
+      "parts": [
+        {
+          "path": "assets/refined-native.bin.gz.parts/part-000",
+          "bytes": 8388608,
+          "sha256": "70a17b0a15b9a57c25bfd9641c40ada764890a242a9cdc34c36e73adcaf99d65"
+        },
+        {
+          "path": "assets/refined-native.bin.gz.parts/part-001",
+          "bytes": 8388608,
+          "sha256": "07635f8bdd9ac28553e71a50ceed5ae0cd47412018f9be806514dc8cf4fb6771"
+        },
+        {
+          "path": "assets/refined-native.bin.gz.parts/part-002",
+          "bytes": 8388608,
+          "sha256": "369d601cc5e40f3c28f88973dd8d91c49aa61687e79aed2eab0514f4d73cca7c"
+        },
+        {
+          "path": "assets/refined-native.bin.gz.parts/part-003",
+          "bytes": 2387574,
+          "sha256": "7b647100497db60647cec7f9308ef4ec9273cea028f2bae782a1b2b6ea3988fd"
+        }
+      ]
+    },
+    {
+      "path": "cad/ARX6-P5-Refined-operating-pose.step",
+      "bytes": 18720981,
+      "sha256": "69007af48bfdb0fab115dd96ecda36b706fab00fd5381747c59ea64ec807dcc9",
+      "gzip_bytes": 3034223,
+      "gzip_sha256": "932e65ad0eea19dd5d93869e15d2e9a5d84d995e8e1332fbf68272bee1f456cb",
+      "parts": [
+        {
+          "path": "cad/ARX6-P5-Refined-operating-pose.step.gz.parts/part-000",
+          "bytes": 3034223,
+          "sha256": "932e65ad0eea19dd5d93869e15d2e9a5d84d995e8e1332fbf68272bee1f456cb"
+        }
+      ]
+    }
+  ]
+}

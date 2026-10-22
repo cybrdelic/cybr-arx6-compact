@@ -1,0 +1,111 @@
+{
+  "id": 235,
+  "name": "gripper_bridge_8",
+  "material": "aluminum",
+  "operations": [
+    {
+      "operation": "chamfer",
+      "label": "exposed bracket outer edge break",
+      "radius_or_width_mm": 0.08,
+      "selected_edges": 36
+    },
+    {
+      "operation": "retain_original_envelope",
+      "removed_added_volume_mm3": 1.237148500137429,
+      "reason": "Keep original internal openings; subtractive exterior refinement only"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "operation": "exposed bracket outer edge break",
+      "radius": 0.25,
+      "error": "StdFail_NotDone"
+    },
+    {
+      "operation": "exposed bracket outer edge break",
+      "radius": 0.15,
+      "error": "ValueError"
+    }
+  ],
+  "original": {
+    "volume_mm3": 26813.246945689112,
+    "mass_kg": 0.0723957667533606,
+    "com_mm": [
+      -2.293959179623856e-06,
+      143.80545152712247,
+      -0.7128705941511153
+    ],
+    "inertia_kg_m2": [
+      [
+        1.2692343793418706e-05,
+        -1.3134790958481943e-13,
+        1.9636051682066762e-14
+      ],
+      [
+        -1.3134790958481943e-13,
+        8.990399725007811e-05,
+        3.498611630810184e-07
+      ],
+      [
+        1.9636051682066762e-14,
+        3.498611630810184e-07,
+        8.447353216140835e-05
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -53.0000001,
+        135.59999990000003,
+        -16.0
+      ],
+      [
+        53.0000001,
+        158.5000001,
+        16.0
+      ]
+    ]
+  },
+  "refined": {
+    "volume_mm3": 26810.068599908573,
+    "mass_kg": 0.07238718521975314,
+    "com_mm": [
+      3.8295337220978455e-05,
+      143.80476107842762,
+      -0.7128716854823672
+    ],
+    "inertia_kg_m2": [
+      [
+        1.2689518972183692e-05,
+        -3.5401950479373205e-11,
+        3.2332398781313604e-11
+      ],
+      [
+        -3.5401950479373205e-11,
+        8.989100247414106e-05,
+        3.499185322096172e-07
+      ],
+      [
+        3.2332398781313604e-11,
+        3.499185322096172e-07,
+        8.446096061215676e-05
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -53.0000001,
+        135.59999990000003,
+        -16.0
+      ],
+      [
+        53.0000001,
+        158.5000001,
+        16.0
+      ]
+    ]
+  },
+  "valid": true,
+  "solid_count": 1,
+  "volume_change_percent": -0.011853640057013504,
+  "mechanical_scope": "Review geometry; contacts, fits, strength, dynamics not requalified",
+  "step": "cad/235-gripper_bridge_8.step"
+}

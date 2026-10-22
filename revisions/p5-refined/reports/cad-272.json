@@ -1,0 +1,101 @@
+{
+  "id": 272,
+  "name": "base_weldment",
+  "material": "aluminum",
+  "operations": [
+    {
+      "operation": "fillet",
+      "label": "baseplate vertical corners",
+      "radius_or_width_mm": 2.0,
+      "selected_edges": 4
+    },
+    {
+      "operation": "chamfer",
+      "label": "baseplate upper perimeter",
+      "radius_or_width_mm": 0.8,
+      "selected_edges": 4
+    }
+  ],
+  "rejected_attempts": [],
+  "original": {
+    "volume_mm3": 558061.1686105864,
+    "mass_kg": 1.5067651552485835,
+    "com_mm": [
+      -0.016691531134377487,
+      14.137681540158871,
+      -0.000619495734068235
+    ],
+    "inertia_kg_m2": [
+      [
+        0.0042569808117009535,
+        6.30644607267705e-07,
+        4.184154282603593e-08
+      ],
+      [
+        6.30644607267705e-07,
+        0.007614636369217815,
+        2.6474363934988897e-08
+      ],
+      [
+        4.184154282603593e-08,
+        2.6474363934988897e-08,
+        0.004256776732934732
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -95.0,
+        0.0,
+        -95.0
+      ],
+      [
+        95.0,
+        71.0000001,
+        95.0
+      ]
+    ]
+  },
+  "refined": {
+    "volume_mm3": 557778.4000223109,
+    "mass_kg": 1.5060016800602394,
+    "com_mm": [
+      -0.016699991146018844,
+      14.139324030220735,
+      -0.0006198104702489526
+    ],
+    "inertia_kg_m2": [
+      [
+        0.004252079259632743,
+        6.306032054773565e-07,
+        4.1841595117472285e-08
+      ],
+      [
+        6.306032054773565e-07,
+        0.007604858265315334,
+        2.6472859089126702e-08
+      ],
+      [
+        4.1841595117472285e-08,
+        2.6472859089126702e-08,
+        0.004251875180788388
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -95.0,
+        0.0,
+        -95.0
+      ],
+      [
+        95.0,
+        71.0000001,
+        95.0
+      ]
+    ]
+  },
+  "valid": true,
+  "solid_count": 1,
+  "volume_change_percent": -0.050669819758208945,
+  "mechanical_scope": "Review geometry; contacts, fits, strength, dynamics not requalified",
+  "step": "cad/272-base_weldment.step"
+}

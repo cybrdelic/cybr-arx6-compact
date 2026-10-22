@@ -1,0 +1,111 @@
+{
+  "id": 274,
+  "name": "upper_structural_frame",
+  "material": "aluminum",
+  "operations": [
+    {
+      "operation": "fillet",
+      "label": "long outer frame edges",
+      "radius_or_width_mm": 0.8,
+      "selected_edges": 4
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "operation": "exposed frame-end perimeter",
+      "radius": 0.35,
+      "error": "ValueError"
+    },
+    {
+      "operation": "exposed frame-end perimeter",
+      "radius": 0.2,
+      "error": "ValueError"
+    },
+    {
+      "operation": "exposed frame-end perimeter",
+      "radius": 0.12,
+      "error": "ValueError"
+    }
+  ],
+  "original": {
+    "volume_mm3": 138360.84266549075,
+    "mass_kg": 0.373574275196825,
+    "com_mm": [
+      -3.2644504993228705e-14,
+      146.10760763427103,
+      -4.04228661057721
+    ],
+    "inertia_kg_m2": [
+      [
+        0.002772927167539862,
+        9.48725581421788e-19,
+        1.4759906092834895e-19
+      ],
+      [
+        9.48725581421788e-19,
+        0.00029698438174163063,
+        -0.00014839678897057165
+      ],
+      [
+        1.4759906092834895e-19,
+        -0.00014839678897057165,
+        0.0028228683960600538
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -44.00000000000001,
+        -33.0,
+        -25.0
+      ],
+      [
+        44.00000000000001,
+        324.0,
+        24.0
+      ]
+    ]
+  },
+  "refined": {
+    "volume_mm3": 138272.94175321845,
+    "mass_kg": 0.3733369427336898,
+    "com_mm": [
+      -3.707693134869155e-14,
+      146.1089474526869,
+      -4.044856315656396
+    ],
+    "inertia_kg_m2": [
+      [
+        0.002772302907092631,
+        8.716292672872212e-19,
+        1.5717827503467914e-19
+      ],
+      [
+        8.716292672872212e-19,
+        0.00029665641791507425,
+        -0.00014839881222271256
+      ],
+      [
+        1.5717827503467914e-19,
+        -0.00014839881222271256,
+        0.002822149964364652
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -44.00000000000001,
+        -33.0,
+        -25.0
+      ],
+      [
+        44.00000000000001,
+        324.0,
+        24.0
+      ]
+    ]
+  },
+  "valid": true,
+  "solid_count": 1,
+  "volume_change_percent": -0.06353019436634577,
+  "mechanical_scope": "Review geometry; contacts, fits, strength, dynamics not requalified",
+  "step": "cad/274-upper_structural_frame.step"
+}

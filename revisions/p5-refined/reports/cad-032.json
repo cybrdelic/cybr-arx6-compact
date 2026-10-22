@@ -1,0 +1,106 @@
+{
+  "id": 32,
+  "name": "J2_structural_heat_spreader_case",
+  "material": "aluminum",
+  "operations": [
+    {
+      "operation": "fillet",
+      "label": "outer flange lip",
+      "radius_or_width_mm": 0.6,
+      "selected_edges": 2
+    },
+    {
+      "operation": "chamfer",
+      "label": "housing end cap outer lip",
+      "radius_or_width_mm": 0.35,
+      "selected_edges": 10
+    },
+    {
+      "operation": "retain_original_envelope",
+      "removed_added_volume_mm3": 14.632021511223154,
+      "reason": "Keep original internal openings; subtractive exterior refinement only"
+    }
+  ],
+  "rejected_attempts": [],
+  "original": {
+    "volume_mm3": 66819.64976691885,
+    "mass_kg": 0.1804130543706809,
+    "com_mm": [
+      -0.030788028074280903,
+      180.00000000000034,
+      -64.47104953249348
+    ],
+    "inertia_kg_m2": [
+      [
+        0.00028511096470719855,
+        -1.6523874364793302e-18,
+        -2.793314499063924e-08
+      ],
+      [
+        -1.6523874364793302e-18,
+        0.00028489583641352407,
+        -3.2186508178710934e-18
+      ],
+      [
+        -2.793314499063924e-08,
+        -3.2186508178710934e-18,
+        0.0002653741497585538
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -44.0,
+        136.0,
+        -110.10000009999999
+      ],
+      [
+        44.0,
+        224.0,
+        -24.0
+      ]
+    ]
+  },
+  "refined": {
+    "volume_mm3": 66760.90985757185,
+    "mass_kg": 0.180254456615444,
+    "com_mm": [
+      -0.030815182485160054,
+      179.99999999997326,
+      -64.48544469914829
+    ],
+    "inertia_kg_m2": [
+      [
+        0.00028470767843603937,
+        -1.0225801379419863e-16,
+        -2.7853184131683948e-08
+      ],
+      [
+        -1.0225801379419863e-16,
+        0.00028449254989743587,
+        1.1297464370727538e-16
+      ],
+      [
+        -2.7853184131683948e-08,
+        1.1297464370727538e-16,
+        0.0002650835136897438
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -44.0,
+        136.0,
+        -110.1
+      ],
+      [
+        44.0,
+        224.0,
+        -23.9999999
+      ]
+    ]
+  },
+  "valid": true,
+  "solid_count": 1,
+  "volume_change_percent": -0.08790813713016599,
+  "mechanical_scope": "Review geometry; contacts, fits, strength, dynamics not requalified",
+  "step": "cad/032-J2_structural_heat_spreader_case.step"
+}

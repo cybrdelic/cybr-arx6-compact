@@ -1,0 +1,100 @@
+{
+  "id": 276,
+  "name": "wrist_roll_yoke",
+  "material": "aluminum",
+  "operations": [
+    {
+      "operation": "chamfer",
+      "label": "yoke outside edge breaks",
+      "radius_or_width_mm": 0.4,
+      "selected_edges": 12
+    },
+    {
+      "operation": "retain_original_envelope",
+      "removed_added_volume_mm3": 15.999999999999801,
+      "reason": "Keep original internal openings; subtractive exterior refinement only"
+    }
+  ],
+  "rejected_attempts": [],
+  "original": {
+    "volume_mm3": 39412.15124416048,
+    "mass_kg": 0.1064128083592333,
+    "com_mm": [
+      2.118423150908957e-14,
+      -30.526537905093743,
+      2.2465521644166606
+    ],
+    "inertia_kg_m2": [
+      [
+        9.833179453859451e-05,
+        -9.094107419119025e-21,
+        4.3057938632703676e-20
+      ],
+      [
+        -9.094107419119025e-21,
+        9.312355515854245e-05,
+        -9.473426446928903e-08
+      ],
+      [
+        4.3057938632703676e-20,
+        -9.473426446928903e-08,
+        8.711247688417253e-05
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -36.0,
+        -46.4,
+        -32.0
+      ],
+      [
+        36.0,
+        36.0,
+        32.0
+      ]
+    ]
+  },
+  "refined": {
+    "volume_mm3": 39368.8019108271,
+    "mass_kg": 0.10629576515923315,
+    "com_mm": [
+      2.3148118483276656e-14,
+      -30.511812268598998,
+      2.2490258627234265
+    ],
+    "inertia_kg_m2": [
+      [
+        9.822801173795441e-05,
+        -1.9303349210047348e-20,
+        4.9332552015595826e-20
+      ],
+      [
+        -1.9303349210047348e-20,
+        9.294396919439472e-05,
+        -9.121392546289599e-08
+      ],
+      [
+        4.9332552015595826e-20,
+        -9.121392546289599e-08,
+        8.699344830757157e-05
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -36.00000000000001,
+        -46.4,
+        -32.00000000000001
+      ],
+      [
+        36.0,
+        36.0,
+        32.0
+      ]
+    ]
+  },
+  "valid": true,
+  "solid_count": 1,
+  "volume_change_percent": -0.1099897670259864,
+  "mechanical_scope": "Review geometry; contacts, fits, strength, dynamics not requalified",
+  "step": "cad/276-wrist_roll_yoke.step"
+}
