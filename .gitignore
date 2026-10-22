@@ -23,3 +23,8 @@ media/ARX6-P5-Cinematic-v1.mp4.restoring
 /ARX6-P5-Pathtraced-*.png
 /ARX6-P5-Pathtraced-*.json
 /ARX6-P5-Pathtraced-Source.zip
+
+# Local portable builds and environments
+.venv*/
+.build/
+pathtraced/.build/

@@ -27,8 +27,15 @@ def main():
     fd, tmp = tempfile.mkstemp(prefix=".native-cache-", dir=dest.parent)
     try:
         with os.fdopen(fd, "wb") as f: f.write(data)
-        os.link(tmp, dest)  # Exclusive publication: never overwrite another file.
+        try:
+            os.link(tmp, dest)  # Exclusive publication: never overwrite another file.
+        except OSError as exc:
+            if os.name != "nt" or getattr(exc, "winerror", None) not in (1, 50):
+                raise
+            # Some Windows filesystems do not support hard links. Windows rename
+            # atomically refuses an existing destination, preserving exclusivity.
+            os.rename(tmp, dest)
     finally:
-        os.unlink(tmp)
+        Path(tmp).unlink(missing_ok=True)
     print("Restored exact native cache:", dest)
 if __name__ == "__main__": main()

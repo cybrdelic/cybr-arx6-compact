@@ -7,6 +7,7 @@ from pathlib import Path
 import os,time,json,math,subprocess,argparse,hashlib
 import numpy as np
 import vtk
+from render_backend import create_render_window
 from vtk.util.numpy_support import numpy_to_vtk,numpy_to_vtkIdTypeArray,vtk_to_numpy
 from PIL import Image
 from geometry import ROOT,Scene,BODIES
@@ -35,7 +36,7 @@ def environment():
 class Renderer:
  def __init__(self,w,h,quality=1):
   self.w,self.h=w,h;self.scene=Scene();self.parts=self.scene.parts
-  self.window=vtk.vtkEGLRenderWindow();self.window.SetOffScreenRendering(1);self.window.SetSize(w,h);self.window.SetMultiSamples(0)
+  self.window=create_render_window(vtk);self.window.SetOffScreenRendering(1);self.window.SetSize(w,h);self.window.SetMultiSamples(0)
   self.ren=vtk.vtkRenderer();self.window.AddRenderer(self.ren);r=self.ren
   r.SetBackground(.012,.015,.021);r.SetBackground2(.033,.040,.050);r.GradientBackgroundOn();r.SetAutomaticLightCreation(False)
   r.UseImageBasedLightingOn();self.env=environment();r.SetEnvironmentTexture(self.env,False);r.UseSphericalHarmonicsOn();r.SetEnvironmentUp(0,1,0);r.SetEnvironmentRight(1,0,0)
