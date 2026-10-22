@@ -1,0 +1,44 @@
+{
+  "renderer": "Native C++ Monte Carlo path tracer; no OpenGL/VTK rendering",
+  "frame_count": 288,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "duration_s": 12,
+  "max_surface_interactions": 6,
+  "samples_per_pixel": "16 on robot, 8 on floor/background; exact counts retained per frame",
+  "finite_area_emitters": 4,
+  "next_event_estimation": "Power/solid-angle light selection",
+  "mis": "power heuristic for emitter and GGX/diffuse sampling",
+  "rasterization": false,
+  "screen_space_ao": false,
+  "shadow_maps": false,
+  "generative_images": false,
+  "optical_flow_interpolation": false,
+  "postprocess": "geometry-guided spatial denoising; filmic tone mapping",
+  "source_sha256": {
+    "source/denoise.py": "513c95430897a4dae7a360b9677732180688e9592f45c2175cf719c296d19a43",
+    "source/director.py": "b95c9a4ac1716515ccad032836fcbc97029726bcfae4a1ebbc1d2159000ecc8a",
+    "source/produce.py": "b48c2d24e80537503cd114ae2f90909cf6d4558ec9f610c682b8ccaeb7f8bef0",
+    "source/frames.py": "67e920cd0511fbc5cf831e9e5ae555582d5edd2b5b3e0197ca651f516b365f11",
+    "source/pathtrace_all_lights.reference.cpp": "f8829d4164d1b63d79b6ba8d2e7ddbe729525194f3dfc287f77fa75e549dd121",
+    "source/pathtrace.cpp": "94514f41bdd3468e9adb875ab3485d1ba68ebaefcd466750e67b403c09d09256",
+    "source/export_native.py": "96227ea9b9d784955bd16aabd27634ace0a038890d21181a59663d39521715dd",
+    "source/pathtrace": "aab99256d4b1189663555e3ccd899f77daee0ab96b931719dad5bae87a696e3c"
+  },
+  "geometry": {
+    "geometry_sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+    "parts": 278,
+    "triangles": 778022,
+    "decimation": false,
+    "input_triangles": 778046,
+    "degenerate_triangle_cleanup": 24,
+    "source": "Canonical compact P5, same CAD tessellations as delivered cinematic package",
+    "native_sha256": "7c2db656ec1fe131df8a8761558458871440f5bad7b2ded5ba4081c77c0be29c",
+    "normal_treatment": "35-degree split smoothing; vertex positions unchanged"
+  },
+  "capture_sha256": "ba938e6a1e0a829c52435a5ef165e7364bf8cb072a604bb18ff0577edf6f1b33",
+  "wall_seconds": 2218.5466072559357
+}

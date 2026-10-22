@@ -1,0 +1,32 @@
+;FFMETADATA1
+title=ARX / 6 — Compact P5 cinematic action film
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=3000
+title=Reveal
+[CHAPTER]
+TIMEBASE=1/1000
+START=3000
+END=13000
+title=Pick transfer return
+[CHAPTER]
+TIMEBASE=1/1000
+START=13000
+END=17000
+title=Precision grip
+[CHAPTER]
+TIMEBASE=1/1000
+START=17000
+END=20000
+title=Compact elbow
+[CHAPTER]
+TIMEBASE=1/1000
+START=20000
+END=25000
+title=Exploded architecture
+[CHAPTER]
+TIMEBASE=1/1000
+START=25000
+END=28000
+title=Reassembly hero

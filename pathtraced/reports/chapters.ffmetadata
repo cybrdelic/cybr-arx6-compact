@@ -1,0 +1,32 @@
+;FFMETADATA1
+title=ARX / 6 — P5 native path-traced action
+[CHAPTER]
+TIMEBASE=1/24
+START=0
+END=48
+title=Reveal
+[CHAPTER]
+TIMEBASE=1/24
+START=48
+END=60
+title=Approach
+[CHAPTER]
+TIMEBASE=1/24
+START=60
+END=104
+title=Contact and lift
+[CHAPTER]
+TIMEBASE=1/24
+START=104
+END=192
+title=Transfer and placement
+[CHAPTER]
+TIMEBASE=1/24
+START=192
+END=216
+title=Compact joint detail
+[CHAPTER]
+TIMEBASE=1/24
+START=216
+END=288
+title=Return and release

@@ -1,0 +1,45 @@
+{
+  "film": "ARX6-P5-Cinematic-v2.mp4",
+  "size_bytes": 10177452,
+  "sha256": "9594d05fd417fec065d4804fe9481fa1f5c3ba3743173182555e8a75cd768213",
+  "width": 1920,
+  "height": 1080,
+  "fps": "24/1",
+  "duration_seconds": 15.0,
+  "decoded_frames": 360,
+  "distinct_decoded_frames": 360,
+  "full_decode_passed": true,
+  "shots": [
+    {
+      "source_shot": 0,
+      "frames": 72,
+      "label": "Reveal"
+    },
+    {
+      "source_shot": 1,
+      "frames": 96,
+      "label": "Action excerpt"
+    },
+    {
+      "source_shot": 4,
+      "frames": 120,
+      "label": "Staged inspection"
+    },
+    {
+      "source_shot": 5,
+      "frames": 72,
+      "label": "Reassembly view"
+    }
+  ],
+  "design_sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+  "capture_sha256": "ba938e6a1e0a829c52435a5ef165e7364bf8cb072a604bb18ff0577edf6f1b33",
+  "renderer_sha256": "714b4424e3f8487436a9034f4845dafd64c30ff439e38c0207e9bac411b1f753",
+  "provenance": "Rebuilt from retained cinematic source plus v2 edits recorded in the conversation; not recovered original encoded bytes.",
+  "rendering": "Native CAD tessellation, VTK PBR, image-based lighting, shadow maps, SSAO, filmic tone mapping; not original single-pass constructive GLSL.",
+  "depth_of_field": "Bypassed in the previously recorded v2 source.",
+  "inspection": "Heuristic component-role staging and offsets; not validated real-world disassembly.",
+  "motion": "Existing reconstructed contact capture; not a rerun of original 28-scenario validation.",
+  "audio": false,
+  "generated_images_used": false,
+  "video_frame_interpolation": false
+}

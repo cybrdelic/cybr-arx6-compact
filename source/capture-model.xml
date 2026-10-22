@@ -1,0 +1,83 @@
+<mujoco model="ARX6_compact_278_capture_reconstruction">
+  <compiler angle="radian" inertiafromgeom="false" autolimits="true" />
+  <option timestep="0.0004166666666666667" gravity="0 -9.80665 0" integrator="implicitfast" solver="Newton" cone="elliptic" iterations="80" tolerance="1e-10">
+    <flag energy="enable" multiccd="enable" autoreset="disable" filterparent="disable" />
+  </option>
+  <size memory="32M" />
+  <default>
+    <geom solref="0.002 1" solimp="0.95 0.99 0.0001" friction="0.35 0.002 0.0001" condim="4" margin="0" /></default>
+  <worldbody>
+    <geom name="nest_A_base" type="cylinder" pos="0.29 0.0038 -0.124" quat="0.7071067811865476 -0.7071067811865476 0 0" size=".0366 .0036" rgba=".12 .12 .12 1" />
+    <geom name="nest_A_seat" type="cylinder" pos="0.29 0.0104 -0.124" quat="0.7071067811865476 -0.7071067811865476 0 0" size=".015 .0036" rgba=".6 .6 .6 1" />
+    <geom name="nest_B_base" type="cylinder" pos="0.33 0.0038 0.124" quat="0.7071067811865476 -0.7071067811865476 0 0" size=".0366 .0036" rgba=".12 .12 .12 1" />
+    <geom name="nest_B_seat" type="cylinder" pos="0.33 0.0104 0.124" quat="0.7071067811865476 -0.7071067811865476 0 0" size=".015 .0036" rgba=".6 .6 .6 1" />
+    <body name="turret" pos="0 0 0">
+      <inertial mass="1.8508068877157073" pos="4.999852301836974e-05 0.17196018991758572 -0.03467781834459094" fullinertia="0.005844859249466478 0.005073606472647169 0.002035982335095144 -6.774616571608676e-07 -8.594368680716982e-06 0.000538968401902128" />
+      <joint name="j1" type="hinge" axis="0 -1 0" range="-6.28 6.28" damping="0.03" frictionloss="0.01" armature="0.003" solreffriction=".001 1" solimpfriction=".999 .9999 .00001" />
+      <body name="upper" pos="0 .180 0">
+        <inertial mass="2.1491370540786505" pos="7.314487525683573e-06 0.21876625285435852 0.03397832414142323" fullinertia="0.027867123368133927 0.004849348606583267 0.02433881740173388 1.632868962411873e-05 -7.077154538096055e-06 -0.003930499949493063" />
+        <joint name="j2" type="hinge" axis="0 0 -1" range="-6.28 6.28" damping="0.06" frictionloss="0.01" armature="0.003" solreffriction=".001 1" solimpfriction=".999 .9999 .00001" />
+        <body name="fore" pos="0 0.28 0">
+          <inertial mass="1.3172346208254924" pos="0.00011316199335719202 0.12460664149011592 6.707094847186813e-06" fullinertia="0.0077032338100619675 0.0008782596187484236 0.0074284716741144325 -6.2188869217354924e-06 -2.693311428735856e-06 -7.530724472820216e-05" />
+          <joint name="j3" type="hinge" axis="0 0 -1" range="-6.28 6.28" damping="0.04" frictionloss="0.01" armature="0.003" solreffriction=".001 1" solimpfriction=".999 .9999 .00001" />
+          <body name="roll" pos="0 0.26 0">
+            <inertial mass="1.0378602004965602" pos="-4.244685374663296e-06 -0.006526912008935385 -0.04958611398404822" fullinertia="0.0015695161162631586 0.0013293337462370644 0.0007046914976208598 2.875359298487694e-08 -8.33189782517555e-08 0.0003431004358968672" />
+            <joint name="j4" type="hinge" axis="0 1 0" range="-6.28 6.28" damping="0.006" frictionloss="0.01" armature="0.003" solreffriction=".001 1" solimpfriction=".999 .9999 .00001" />
+            <body name="bend" pos="0 0 0">
+              <inertial mass="1.1392962061313914" pos="4.1968122172499033e-17 0.07487878502843952 -0.0016959055576375337" fullinertia="0.0016299938085008766 0.0006750220745497657 0.0017456998848269087 -2.5310091560152798e-19 -1.4284505758930841e-18 -0.00014487731059635312" />
+              <joint name="j5" type="hinge" axis="0 0 -1" range="-6.28 6.28" damping="0.006" frictionloss="0.01" armature="0.003" solreffriction=".001 1" solimpfriction=".999 .9999 .00001" />
+              <body name="tool" pos="0 0 0">
+                <inertial mass="0.2001617938700091" pos="3.0022884078491505e-07 0.135040874229151 -0.0022720408201446054" fullinertia="6.183846443909082e-05 0.00013775127119686217 0.00014354153087619065 -9.905264259474326e-10 4.413848567864229e-11 6.1593332169672556e-06" />
+                <joint name="j6" type="hinge" axis="0 1 0" range="-6.28 6.28" damping="0.004" frictionloss="0.01" armature="0.003" solreffriction=".001 1" solimpfriction=".999 .9999 .00001" />
+                <site name="tcp" pos="0 .174 0" size=".002" />
+                <body name="jaw_left" pos="0 .1692 0">
+                  <inertial mass="0.025721663482804805" pos="-0.001340468462134688 -0.0091434767898268 -2.0363515723924698e-19" fullinertia="3.602918003469237e-06 5.642539468805266e-06 7.832502384595288e-06 -6.91463265074084e-07 3.4293818988947065e-23 3.2914072963572107e-23" />
+                  <joint name="jaw_left" type="slide" axis="1 0 0" range=".0175 .0385" damping=".4" frictionloss="2.68704378109" armature="0.559674272222" />
+                  <geom name="pad_left" type="box" pos="0.0009 0 0" size=".0009 .012 .0092" rgba=".08 .08 .08 1" />
+                  </body>
+                <body name="jaw_right" pos="0 .1692 0">
+                  <inertial mass="0.025720168582804744" pos="0.0013405986819772342 -0.011807914797963838 -8.233158975293279e-20" fullinertia="4.593123614241208e-06 5.6425248301511685e-06 8.822706818007167e-06 1.8109209954709413e-06 -2.3161057151484775e-23 -3.3087224502121107e-23" />
+                  <joint name="jaw_right" type="slide" axis="-1 0 0" range=".0175 .0385" damping=".4" frictionloss="2.68704378109" armature="0.559674272222" />
+                  <geom name="pad_right" type="box" pos="-0.0009 0 0" size=".0009 .012 .0092" rgba=".08 .08 .08 1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    <body name="fixed_hardware">
+      </body>
+    <body name="puck" pos="0.29 0.028 -0.124">
+      <freejoint name="puck_free" />
+      <inertial pos="0 0 0" mass="0.0819390195909" diaginertia="1.30761018764e-05 1.54455051929e-05 1.30761018764e-05" />
+      <geom name="puck" type="cylinder" quat="0.7071067811865476 -0.7071067811865476 0 0" size="0.019 0.014" rgba=".7 .7 .72 1" />
+    </body>
+    <geom name="floor" type="box" pos="0 -0.02 0" size="1 .02 1" rgba=".16 .17 .18 1" />
+    </worldbody>
+  <contact>
+    <pair geom1="pad_left" geom2="puck" condim="4" friction="0.65 0.65 0.002 0.0001 0.0001" solref="0.002 1" solimp="0.95 0.99 0.0001" />
+    <pair geom1="pad_right" geom2="puck" condim="4" friction="0.65 0.65 0.002 0.0001 0.0001" solref="0.002 1" solimp="0.95 0.99 0.0001" />
+  </contact>
+  <equality>
+    <joint name="opposed_rack_synchronization" joint1="jaw_left" joint2="jaw_right" polycoef="0 1 0 0 0" solref=".002 1" solimp=".99 .999 .00001" />
+  </equality>
+  <tendon>
+    <fixed name="rack_pinion_angle">
+      <joint joint="jaw_left" coef="166.666666667" />
+      <joint joint="jaw_right" coef="166.666666667" />
+    </fixed>
+  </tendon>
+  <actuator>
+    <motor name="motor1" joint="j1" gear="1" />
+    <motor name="motor2" joint="j2" gear="1" />
+    <motor name="motor3" joint="j3" gear="1" />
+    <motor name="motor4" joint="j4" gear="1" />
+    <motor name="motor5" joint="j5" gear="1" />
+    <motor name="motor6" joint="j6" gear="1" />
+    <motor name="gripper_motor" tendon="rack_pinion_angle" gear="1" />
+  </actuator>
+  <keyframe>
+    <key name="home" qpos="-0.40405914701 0.199926183848 1.41096837695 -0 1.53069809279 3.5456518006 0.038 0.038 0.29 0.028 -0.124 1 0 0 0" />
+  </keyframe>
+</mujoco>

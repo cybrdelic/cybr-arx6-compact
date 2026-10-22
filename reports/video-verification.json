@@ -1,0 +1,78 @@
+{
+  "movie": "ARX6-P5-Cinematic-Action.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": "24/1",
+  "duration_s": 28.0,
+  "decoded_frames": 672,
+  "distinct_decoded_frames": 672,
+  "full_decode_passed": true,
+  "sha256": "e8873fec1763941dd100e96727d91d1a1b1f2ec60fc429416c7ee1e06141e11a",
+  "size_bytes": 13128405,
+  "chapters": 6,
+  "canonical_geometry_sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+  "modeled_part_instances": 278,
+  "native_render_triangles": 778046,
+  "rendering": "Native CAD tessellation with VTK PBR / software EGL; not the earlier single-pass CSG shader",
+  "motion": "Fresh P5-based computed-torque / contact reconstruction, not original 28-scenario engineering validation",
+  "explosion": "Inspection presentation offsets; not a physical disassembly simulation",
+  "audio": "None",
+  "generative_images_used": false,
+  "video_frame_interpolation_used": false,
+  "source_shots": [
+    {
+      "shot": 1,
+      "file": "01-Reveal.mp4",
+      "duration_s": 3,
+      "raw_rendered_frames": 72,
+      "distinct_raw_frames": 72,
+      "clip_sha256": "e4fc9c23f4c211b59b54b543a980226bea9f3462d0f5b911e20f9a589bf09149",
+      "render_report_sha256": "d2a0fc2069bf1f5708d48d6da006c28a31b7087da932fd61fcd60e1f1ed043b2"
+    },
+    {
+      "shot": 2,
+      "file": "02-Pick-transfer-return.mp4",
+      "duration_s": 10,
+      "raw_rendered_frames": 240,
+      "distinct_raw_frames": 240,
+      "clip_sha256": "51264f05cf3f6357201d6266aa00bf6f5e7d1cfc9a8c6c97d4cba4a3bac32a45",
+      "render_report_sha256": "8b984166adb2650b6ad47cb3df3a3592589c643ad1bfe7cacb67c13c07a9a396"
+    },
+    {
+      "shot": 3,
+      "file": "03-Precision-grip.mp4",
+      "duration_s": 4,
+      "raw_rendered_frames": 96,
+      "distinct_raw_frames": 96,
+      "clip_sha256": "02d31954dec305ce56ba637df7731f69982da5d3c14ed55b69eb3a750754b523",
+      "render_report_sha256": "8f0fbc514ca5eed70a9489934f2c96c8528ba853786411e665d034dbeaf4040b"
+    },
+    {
+      "shot": 4,
+      "file": "04-Compact-elbow.mp4",
+      "duration_s": 3,
+      "raw_rendered_frames": 72,
+      "distinct_raw_frames": 72,
+      "clip_sha256": "249070de9d562945ccea852c7276016bfdcd6c476f15b668c394ca6c4a6d4d32",
+      "render_report_sha256": "8b7ec875e8857bcada29e28e915bbeb755517a07b793006ebf7bcbdcad4c8345"
+    },
+    {
+      "shot": 5,
+      "file": "05-Exploded-architecture.mp4",
+      "duration_s": 5,
+      "raw_rendered_frames": 120,
+      "distinct_raw_frames": 120,
+      "clip_sha256": "f4651a9cd0ece9d1968da6fe03c98e271f7d9d1a893786f08b4d25f61ca5507a",
+      "render_report_sha256": "4610ab5da37d114f822f090ff1d294f128b86767c0cd64063a5faacf87e1b988"
+    },
+    {
+      "shot": 6,
+      "file": "06-Reassembly-hero.mp4",
+      "duration_s": 3,
+      "raw_rendered_frames": 72,
+      "distinct_raw_frames": 72,
+      "clip_sha256": "03257d67dccb8fd3ef9f96026d3b92735ff6474e2b876d8d8c95e1cab6b74387",
+      "render_report_sha256": "fefc87223d5b5b7d3b863032d01c5c4ee2bb26a028cc876c0206f53a2d1a04fc"
+    }
+  ]
+}

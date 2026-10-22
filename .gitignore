@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+/shots/
+/frames-v2/
+/clips-v2/
+/.mesa-cache/
+/native-test-*.png
+/ARX6-P5-Cinematic-Action.mp4
+/ARX6-P5-Cinematic-v2.mp4
+
+# Restored byte-exact historical movie; parts are tracked.
+media/ARX6-P5-Cinematic-v1.mp4
+media/ARX6-P5-Cinematic-v1.mp4.restoring
+
+# Restored path-traced cache, rebuilt executable and generated capture outputs.
+/pathtraced/assets/native.bin
+/pathtraced/source/pathtrace
+/pathtraced/frames/
+/pathtraced/previews/*.f32
+/pathtraced/reports/render.lock
+/ARX6-P5-Pathtraced-*.mp4
+/ARX6-P5-Pathtraced-*.png
+/ARX6-P5-Pathtraced-*.json
+/ARX6-P5-Pathtraced-Source.zip

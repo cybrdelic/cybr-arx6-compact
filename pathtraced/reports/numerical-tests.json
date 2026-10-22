@@ -1,0 +1,1 @@
+{"bvh_bruteforce_tests":128,"bvh_passed":128,"max_distance_error_m":2.38419e-06,"finite_nonnegative_bsdf_tests":9000,"bsdf_passed":9000,"scope":"Numerical software checks, not certification of all transport cases."}

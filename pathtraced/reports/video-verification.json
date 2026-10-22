@@ -1,0 +1,64 @@
+{
+  "file": "ARX6-P5-Pathtraced-Action-1080p.mp4",
+  "size_bytes": 3585174,
+  "sha256": "c298178f407f1c47591dc6749d0ae6e10b4e65c10b9e972a92762577acd11a22",
+  "renderer": "Custom native CPU Monte Carlo path tracer, not VTK/Eevee/raster PBR, and not Blender Cycles",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frame_rate": "24/1",
+  "duration_s": 12.0,
+  "native_frames_rendered": 288,
+  "decoded_frames": 288,
+  "distinct_decoded_frames": 288,
+  "full_decode_passed": true,
+  "maximum_surface_interactions": 6,
+  "sampling": "16 camera paths per robot pixel; 8 per floor/background pixel, with four-emitter MIS",
+  "denoising": "Geometry-guided a-trous spatial filter; no generative image model",
+  "thin_lens_depth_of_field": true,
+  "geometry_parts": 278,
+  "native_triangles": 778022,
+  "canonical_geometry_sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+  "capture_sha256": "ba938e6a1e0a829c52435a5ef165e7364bf8cb072a604bb18ff0577edf6f1b33",
+  "simulation_scope": "Same P5-based contact capture as the preceding cinematic source; not a new engineering validation",
+  "content": "Two-second moving reveal followed by the full ten-second operating recording, with gripper and elbow detail camera cuts",
+  "disassembly_included": false,
+  "audio": false,
+  "frame_interpolation": false,
+  "image_generation": false,
+  "color_encode_decode_mean_abs_8bit_error": 1.3419055938720703,
+  "source_render_manifest_sha256": "230733681d794dd1ac690dc33faf9afcbcbe414962fa4f47ed91d36e970618dc",
+  "chapters": [
+    {
+      "start": 0,
+      "end": 48,
+      "title": "Reveal"
+    },
+    {
+      "start": 48,
+      "end": 60,
+      "title": "Approach"
+    },
+    {
+      "start": 60,
+      "end": 104,
+      "title": "Contact and lift"
+    },
+    {
+      "start": 104,
+      "end": 192,
+      "title": "Transfer and placement"
+    },
+    {
+      "start": 192,
+      "end": 216,
+      "title": "Compact joint detail"
+    },
+    {
+      "start": 216,
+      "end": 288,
+      "title": "Return and release"
+    }
+  ]
+}

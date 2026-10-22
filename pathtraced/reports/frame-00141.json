@@ -1,0 +1,33 @@
+{
+  "index": 141,
+  "time": 3.875,
+  "eye": [
+    0.006003403497394172,
+    0.6591049777238291,
+    1.1549978424808784
+  ],
+  "target": [
+    0.16,
+    0.235,
+    0.0
+  ],
+  "fov": 33,
+  "aperture": 0.0011,
+  "spp": 16,
+  "max_depth": 6,
+  "width": 1920,
+  "height": 1080,
+  "explode": 0,
+  "shot": "Transfer and placement",
+  "renderer": "ARX native CPU Monte Carlo path tracer / C++17",
+  "native_log": "FRAME 141 1920x1080 spp=16 depth=6 rays=59802570 seconds=4.93392 output=./frames/00141.f32",
+  "primary_samples_histogram": {
+    "8": 1875449,
+    "16": 198151
+  },
+  "raw_rgb_sha256": "fe6b15cb459c780867aae608b4e884d4d38fb32aa9559c45244af690b76a1016",
+  "png_sha256": "50d0fbb131ee46e7f0bb2979fd367e2b5b075345e36e4007816006e64227e79f",
+  "postprocess": "Four geometry-guided a-trous passes, followed by filmic tonemapping and sRGB encoding",
+  "seconds_total": 7.26514744758606,
+  "frame_input_sha256": "a595183dd811e0a48841b51bac9c7c6280c12fa498e03deaf506ea76c417e2c8"
+}

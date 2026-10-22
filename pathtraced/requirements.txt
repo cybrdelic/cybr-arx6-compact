@@ -1,0 +1,6 @@
+numpy
+scipy
+Pillow
+numba
+# Optional, only for regenerating vertex normals from the original CAD tessellations:
+vtk

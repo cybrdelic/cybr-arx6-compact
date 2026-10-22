@@ -1,0 +1,14 @@
+{
+  "direct_max_surface_interactions": 1,
+  "path_traced_max_surface_interactions": 6,
+  "primary_samples_robot": 128,
+  "primary_samples_floor": 64,
+  "resolution": [
+    384,
+    216
+  ],
+  "mean_absolute_linear_difference": 0.00526806153357029,
+  "floor_mean_absolute_linear_difference": 0.0035914252512156963,
+  "same_geometry_same_camera": true,
+  "scope": "Transport ablation, not a statistical proof of estimator convergence or a scene-engine equivalence certificate."
+}

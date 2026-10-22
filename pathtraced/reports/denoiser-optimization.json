@@ -1,0 +1,10 @@
+{
+  "reference_seconds": 5.01291823387146,
+  "optimized_first_seconds": 5.272349119186401,
+  "optimized_warm_seconds": 5.611202716827393,
+  "max_linear_difference": 2.5033950805664062e-06,
+  "mean_linear_difference": 1.6728032847801444e-10,
+  "display_pixels_differ": 3,
+  "display_channel_max_difference": 1,
+  "scope": "Same geometry-guided filter equations. Fast arithmetic compilation only; measured concurrently with native capture."
+}

@@ -1,0 +1,91 @@
+{
+  "scope": "Integrity and provenance inspection of the new rendering capture; not the old engineering validation or hardware qualification.",
+  "frame_samples": 1201,
+  "capture_duration_s": 10.0,
+  "finite_states": true,
+  "monotonic_timestamps": true,
+  "max_rotation_orthogonality_error": 4.218847493575595e-15,
+  "minimum_rotation_determinant": 0.999999999999994,
+  "independent_puck_freejoint": true,
+  "weld_constraints": 0,
+  "original_moving_body_inertias": [
+    {
+      "body": "bend",
+      "mass_kg": 1.1392962061313914,
+      "mass_com_full_inertia_equal_to_P5": true
+    },
+    {
+      "body": "jaw_left",
+      "mass_kg": 0.025721663482804805,
+      "mass_com_full_inertia_equal_to_P5": true
+    },
+    {
+      "body": "fore",
+      "mass_kg": 1.3172346208254924,
+      "mass_com_full_inertia_equal_to_P5": true
+    },
+    {
+      "body": "turret",
+      "mass_kg": 1.8508068877157073,
+      "mass_com_full_inertia_equal_to_P5": true
+    },
+    {
+      "body": "tool",
+      "mass_kg": 0.2001617938700091,
+      "mass_com_full_inertia_equal_to_P5": true
+    },
+    {
+      "body": "upper",
+      "mass_kg": 2.1491370540786505,
+      "mass_com_full_inertia_equal_to_P5": true
+    },
+    {
+      "body": "roll",
+      "mass_kg": 1.0378602004965602,
+      "mass_com_full_inertia_equal_to_P5": true
+    },
+    {
+      "body": "jaw_right",
+      "mass_kg": 0.025720168582804744,
+      "mass_com_full_inertia_equal_to_P5": true
+    }
+  ],
+  "observations": [
+    {
+      "time_s": 1.5,
+      "puck_position_m": [
+        0.28994560503561473,
+        0.1704261571082478,
+        -0.12403205105492181
+      ]
+    },
+    {
+      "time_s": 3.6,
+      "puck_position_m": [
+        0.32999461030583555,
+        0.02799945605485479,
+        0.12385886969271476
+      ],
+      "distance_to_nominal_station_mm": 0.14123423208958366
+    },
+    {
+      "time_s": 6.5,
+      "puck_position_m": [
+        0.3299413626786654,
+        0.1704047287053282,
+        0.12388632576878024
+      ]
+    },
+    {
+      "time_s": 9.9,
+      "puck_position_m": [
+        0.28992878078863493,
+        0.027999467378527276,
+        -0.12411647425239376
+      ],
+      "distance_to_nominal_station_mm": 0.13652366543489372
+    }
+  ],
+  "capture_sha256": "ba938e6a1e0a829c52435a5ef165e7364bf8cb072a604bb18ff0577edf6f1b33",
+  "controller": "Reconstructed computed-torque / PD, not original motor electrical or safety firmware."
+}

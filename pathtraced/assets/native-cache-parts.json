@@ -1,0 +1,19 @@
+{
+  "target": "assets/native.bin",
+  "bytes": 56022040,
+  "sha256": "7c2db656ec1fe131df8a8761558458871440f5bad7b2ded5ba4081c77c0be29c",
+  "gzip_bytes": 13370941,
+  "gzip_sha256": "da5ce772a64c69a1914a972e160ab23f0283d861746e6315ba4ff14912d0b4b3",
+  "parts": [
+    {
+      "path": "assets/native.bin.gz.parts/part-000",
+      "bytes": 8388608,
+      "sha256": "39287ca7f308e40b049defe281049d6cbca08f09c530b9c7ae4c12b2201b381b"
+    },
+    {
+      "path": "assets/native.bin.gz.parts/part-001",
+      "bytes": 4982333,
+      "sha256": "ee4a4b7a67a6231785a44ff583e03a48a6e5b82f21bbd6c0eae3ad9ff0bfacdf"
+    }
+  ]
+}

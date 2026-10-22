@@ -1,0 +1,6 @@
+{
+  "mean_absolute_channel_error_8bit": 1.3252181391460904,
+  "mean_luminance_before": 20.469593621399177,
+  "mean_luminance_after": 19.208201356738684,
+  "scope": "Same native frame before and after H.264 encode/decode; not perceptual scoring."
+}

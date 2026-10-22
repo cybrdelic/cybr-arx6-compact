@@ -1,0 +1,23 @@
+{
+  "scene_units_to_meters": 0.2,
+  "workpiece_targets_m": {
+    "A": [
+      0.29,
+      0.028,
+      -0.124
+    ],
+    "B": [
+      0.33,
+      0.028,
+      0.124
+    ]
+  },
+  "controller": {
+    "jaw_open_half_gap_m": 0.038,
+    "jaw_closed_target_half_gap_m": 0.018
+  },
+  "tool_length_m": 0.174,
+  "shoulder_height_m": 0.18,
+  "upper_length_m": 0.28,
+  "fore_length_m": 0.26
+}

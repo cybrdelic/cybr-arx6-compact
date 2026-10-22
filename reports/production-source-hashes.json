@@ -1,0 +1,12 @@
+{
+  "assets/design.json": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+  "assets/mass-properties.json": "6919a163453a977e80b97eca815a69152804b9f131408f6909611155669f190e",
+  "assets/capture.json": "ba938e6a1e0a829c52435a5ef165e7364bf8cb072a604bb18ff0577edf6f1b33",
+  "source/native_film.py": "a8c737e95b4dc6ab5af1533e4c446d1ea00fdbfc89cb0125b30804a6e7517f1e",
+  "source/geometry.py": "60caf4eca51910f172cc9ce884ec795a70a54714ffb5bd1c366f94107669ee87",
+  "source/build_meshes.py": "1b2e4f087634f8ff41ad450195a2a35ef3ef6445d1bc25efbad9c797f7fb2e50",
+  "source/capture.mjs": "05745d4a46dc20e5dc2733ab1b34e44d1c3ec9b5aace2a7fe0ea6644b8ee02e5",
+  "source/reference.mjs": "20da728baa7405f352d820ba873d7e2d8be7cbf42c3589aa9c83373419431895",
+  "source/capture-model.xml": "15d293a0e6a25ab06f8526336d623cfc0dc2fecf928c0c624d3441ccd02e90fd",
+  "source/capture-parameters.json": "2272c35a842a0e56ca469a24e4cbb938053d10f7e0cc50bedfde9238e2ee1f7a"
+}

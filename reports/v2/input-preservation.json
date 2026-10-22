@@ -1,0 +1,14 @@
+{
+  "assets/design.json": {
+    "unchanged": true,
+    "sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0"
+  },
+  "assets/mass-properties.json": {
+    "unchanged": true,
+    "sha256": "6919a163453a977e80b97eca815a69152804b9f131408f6909611155669f190e"
+  },
+  "assets/capture.json": {
+    "unchanged": true,
+    "sha256": "ba938e6a1e0a829c52435a5ef165e7364bf8cb072a604bb18ff0577edf6f1b33"
+  }
+}

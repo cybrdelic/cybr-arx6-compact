@@ -1,0 +1,11 @@
+{
+  "geometry_sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+  "parts": 278,
+  "triangles": 778022,
+  "decimation": false,
+  "input_triangles": 778046,
+  "degenerate_triangle_cleanup": 24,
+  "source": "Canonical compact P5, same CAD tessellations as delivered cinematic package",
+  "native_sha256": "7c2db656ec1fe131df8a8761558458871440f5bad7b2ded5ba4081c77c0be29c",
+  "normal_treatment": "35-degree split smoothing; vertex positions unchanged"
+}

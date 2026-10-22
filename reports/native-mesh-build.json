@@ -1,0 +1,2232 @@
+{
+  "source_sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+  "parts": [
+    {
+      "id": 0,
+      "name": "J1_CSD_reducer_case",
+      "vertices": 5486,
+      "triangles": 5500,
+      "valid": true,
+      "volume_mm3": 61154.283435483376
+    },
+    {
+      "id": 1,
+      "name": "J1_CSD_rotating_output",
+      "vertices": 4220,
+      "triangles": 4232,
+      "valid": true,
+      "volume_mm3": 7215.534608541346
+    },
+    {
+      "id": 2,
+      "name": "J1_structural_heat_spreader_case",
+      "vertices": 6958,
+      "triangles": 6932,
+      "valid": true,
+      "volume_mm3": 66819.64976614388
+    },
+    {
+      "id": 3,
+      "name": "J1_rear_service_cover",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 9874.339869498075
+    },
+    {
+      "id": 4,
+      "name": "J1_reducer_bearing_bulkhead",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 11628.570021424892
+    },
+    {
+      "id": 5,
+      "name": "J1_motor_flange_standoff",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 19529.390288590283
+    },
+    {
+      "id": 6,
+      "name": "J1_input_bearing_front",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1378.373776762522
+    },
+    {
+      "id": 7,
+      "name": "J1_motor_mounting_flange",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 16437.912321010554
+    },
+    {
+      "id": 8,
+      "name": "J1_motor_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 23408.187503475132
+    },
+    {
+      "id": 9,
+      "name": "J1_motor_rotor",
+      "vertices": 1688,
+      "triangles": 1680,
+      "valid": true,
+      "volume_mm3": 4225.618833665037
+    },
+    {
+      "id": 10,
+      "name": "J1_stepped_rotor_carrier",
+      "vertices": 1688,
+      "triangles": 1676,
+      "valid": true,
+      "volume_mm3": 16820.965896448663
+    },
+    {
+      "id": 11,
+      "name": "J1_input_bearing_rear",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1378.373776762522
+    },
+    {
+      "id": 12,
+      "name": "J1_rear_bearing_brake_support",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 19691.535739423693
+    },
+    {
+      "id": 13,
+      "name": "J1_spring_applied_brake_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 30925.99516157059
+    },
+    {
+      "id": 14,
+      "name": "J1_brake_rotor_and_hub",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 2721.4046361721603
+    },
+    {
+      "id": 15,
+      "name": "J1_encoder_board",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1206.3715789784765
+    },
+    {
+      "id": 16,
+      "name": "J1_encoder_magnet_target",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 112.59468070465816
+    },
+    {
+      "id": 17,
+      "name": "J1_output_link_adapter",
+      "vertices": 4220,
+      "triangles": 4232,
+      "valid": true,
+      "volume_mm3": 10595.021224231576
+    },
+    {
+      "id": 18,
+      "name": "J1_output_bolt_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.4000375018151
+    },
+    {
+      "id": 19,
+      "name": "J1_output_bolt_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.4000375018151
+    },
+    {
+      "id": 20,
+      "name": "J1_output_bolt_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.400037501815
+    },
+    {
+      "id": 21,
+      "name": "J1_output_bolt_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.4000375018151
+    },
+    {
+      "id": 22,
+      "name": "J1_output_bolt_5",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.4000375018151
+    },
+    {
+      "id": 23,
+      "name": "J1_output_bolt_6",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.400037501815
+    },
+    {
+      "id": 24,
+      "name": "J1_output_bolt_7",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.4000375018151
+    },
+    {
+      "id": 25,
+      "name": "J1_output_bolt_8",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 535.4000375018151
+    },
+    {
+      "id": 26,
+      "name": "J1_cover_M2p5_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553109
+    },
+    {
+      "id": 27,
+      "name": "J1_cover_M2p5_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553109
+    },
+    {
+      "id": 28,
+      "name": "J1_cover_M2p5_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553109
+    },
+    {
+      "id": 29,
+      "name": "J1_cover_M2p5_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553109
+    },
+    {
+      "id": 30,
+      "name": "J2_CSD_reducer_case",
+      "vertices": 5486,
+      "triangles": 5500,
+      "valid": true,
+      "volume_mm3": 61154.28343548336
+    },
+    {
+      "id": 31,
+      "name": "J2_CSD_rotating_output",
+      "vertices": 4220,
+      "triangles": 4232,
+      "valid": true,
+      "volume_mm3": 7215.534608541348
+    },
+    {
+      "id": 32,
+      "name": "J2_structural_heat_spreader_case",
+      "vertices": 6958,
+      "triangles": 6932,
+      "valid": true,
+      "volume_mm3": 66819.64976614389
+    },
+    {
+      "id": 33,
+      "name": "J2_rear_service_cover",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 9874.339869498075
+    },
+    {
+      "id": 34,
+      "name": "J2_reducer_bearing_bulkhead",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 11628.570021424892
+    },
+    {
+      "id": 35,
+      "name": "J2_motor_flange_standoff",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 19529.390288590283
+    },
+    {
+      "id": 36,
+      "name": "J2_input_bearing_front",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1378.3737767625214
+    },
+    {
+      "id": 37,
+      "name": "J2_motor_mounting_flange",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 16437.91232101055
+    },
+    {
+      "id": 38,
+      "name": "J2_motor_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 23408.187503475132
+    },
+    {
+      "id": 39,
+      "name": "J2_motor_rotor",
+      "vertices": 1688,
+      "triangles": 1680,
+      "valid": true,
+      "volume_mm3": 4225.618833665038
+    },
+    {
+      "id": 40,
+      "name": "J2_stepped_rotor_carrier",
+      "vertices": 1688,
+      "triangles": 1676,
+      "valid": true,
+      "volume_mm3": 16820.965896448663
+    },
+    {
+      "id": 41,
+      "name": "J2_input_bearing_rear",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1378.3737767625214
+    },
+    {
+      "id": 42,
+      "name": "J2_rear_bearing_brake_support",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 19691.535739423696
+    },
+    {
+      "id": 43,
+      "name": "J2_spring_applied_brake_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 30925.995161570583
+    },
+    {
+      "id": 44,
+      "name": "J2_brake_rotor_and_hub",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 2721.4046361721603
+    },
+    {
+      "id": 45,
+      "name": "J2_encoder_board",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1206.3715789784762
+    },
+    {
+      "id": 46,
+      "name": "J2_encoder_magnet_target",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 112.59468070465815
+    },
+    {
+      "id": 47,
+      "name": "J2_output_link_adapter",
+      "vertices": 4220,
+      "triangles": 4232,
+      "valid": true,
+      "volume_mm3": 10595.021224231574
+    },
+    {
+      "id": 48,
+      "name": "J2_case_mount_M4_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455903
+    },
+    {
+      "id": 49,
+      "name": "J2_case_mount_M4_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455903
+    },
+    {
+      "id": 50,
+      "name": "J2_case_mount_M4_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455903
+    },
+    {
+      "id": 51,
+      "name": "J2_case_mount_M4_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455903
+    },
+    {
+      "id": 52,
+      "name": "J2_output_bolt_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.1301293319426
+    },
+    {
+      "id": 53,
+      "name": "J2_output_bolt_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.1301293319426
+    },
+    {
+      "id": 54,
+      "name": "J2_output_bolt_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194256
+    },
+    {
+      "id": 55,
+      "name": "J2_output_bolt_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194267
+    },
+    {
+      "id": 56,
+      "name": "J2_output_bolt_5",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.1301293319426
+    },
+    {
+      "id": 57,
+      "name": "J2_output_bolt_6",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194256
+    },
+    {
+      "id": 58,
+      "name": "J2_output_bolt_7",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194267
+    },
+    {
+      "id": 59,
+      "name": "J2_output_bolt_8",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194267
+    },
+    {
+      "id": 60,
+      "name": "J2_cover_M2p5_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553114
+    },
+    {
+      "id": 61,
+      "name": "J2_cover_M2p5_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553113
+    },
+    {
+      "id": 62,
+      "name": "J2_cover_M2p5_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553114
+    },
+    {
+      "id": 63,
+      "name": "J2_cover_M2p5_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553114
+    },
+    {
+      "id": 64,
+      "name": "J3_CSD_reducer_case",
+      "vertices": 5486,
+      "triangles": 5500,
+      "valid": true,
+      "volume_mm3": 61154.28343548336
+    },
+    {
+      "id": 65,
+      "name": "J3_CSD_rotating_output",
+      "vertices": 4220,
+      "triangles": 4232,
+      "valid": true,
+      "volume_mm3": 7215.534608541348
+    },
+    {
+      "id": 66,
+      "name": "J3_structural_heat_spreader_case",
+      "vertices": 6958,
+      "triangles": 6932,
+      "valid": true,
+      "volume_mm3": 66819.64976614389
+    },
+    {
+      "id": 67,
+      "name": "J3_rear_service_cover",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 9874.339869498075
+    },
+    {
+      "id": 68,
+      "name": "J3_reducer_bearing_bulkhead",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 11628.570021424892
+    },
+    {
+      "id": 69,
+      "name": "J3_motor_flange_standoff",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 19529.390288590283
+    },
+    {
+      "id": 70,
+      "name": "J3_input_bearing_front",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1378.3737767625223
+    },
+    {
+      "id": 71,
+      "name": "J3_motor_mounting_flange",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 16437.91232101055
+    },
+    {
+      "id": 72,
+      "name": "J3_motor_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 23408.18750347512
+    },
+    {
+      "id": 73,
+      "name": "J3_motor_rotor",
+      "vertices": 1688,
+      "triangles": 1680,
+      "valid": true,
+      "volume_mm3": 4225.618833665035
+    },
+    {
+      "id": 74,
+      "name": "J3_stepped_rotor_carrier",
+      "vertices": 1688,
+      "triangles": 1676,
+      "valid": true,
+      "volume_mm3": 16820.965896448666
+    },
+    {
+      "id": 75,
+      "name": "J3_input_bearing_rear",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1378.3737767625223
+    },
+    {
+      "id": 76,
+      "name": "J3_rear_bearing_brake_support",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 19691.535739423696
+    },
+    {
+      "id": 77,
+      "name": "J3_spring_applied_brake_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 30925.99516157059
+    },
+    {
+      "id": 78,
+      "name": "J3_brake_rotor_and_hub",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 2721.4046361721607
+    },
+    {
+      "id": 79,
+      "name": "J3_encoder_board",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1206.3715789784765
+    },
+    {
+      "id": 80,
+      "name": "J3_encoder_magnet_target",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 112.59468070465815
+    },
+    {
+      "id": 81,
+      "name": "J3_output_link_adapter",
+      "vertices": 4220,
+      "triangles": 4232,
+      "valid": true,
+      "volume_mm3": 10595.021224231574
+    },
+    {
+      "id": 82,
+      "name": "J3_case_mount_M4_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455937
+    },
+    {
+      "id": 83,
+      "name": "J3_case_mount_M4_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455937
+    },
+    {
+      "id": 84,
+      "name": "J3_case_mount_M4_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.790311304559
+    },
+    {
+      "id": 85,
+      "name": "J3_case_mount_M4_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455903
+    },
+    {
+      "id": 86,
+      "name": "J3_output_bolt_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.1301293319426
+    },
+    {
+      "id": 87,
+      "name": "J3_output_bolt_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.1301293319426
+    },
+    {
+      "id": 88,
+      "name": "J3_output_bolt_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194256
+    },
+    {
+      "id": 89,
+      "name": "J3_output_bolt_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194267
+    },
+    {
+      "id": 90,
+      "name": "J3_output_bolt_5",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.1301293319426
+    },
+    {
+      "id": 91,
+      "name": "J3_output_bolt_6",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194256
+    },
+    {
+      "id": 92,
+      "name": "J3_output_bolt_7",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194267
+    },
+    {
+      "id": 93,
+      "name": "J3_output_bolt_8",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 496.13012933194267
+    },
+    {
+      "id": 94,
+      "name": "J3_cover_M2p5_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553099
+    },
+    {
+      "id": 95,
+      "name": "J3_cover_M2p5_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.235293715530986
+    },
+    {
+      "id": 96,
+      "name": "J3_cover_M2p5_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.23529371553119
+    },
+    {
+      "id": 97,
+      "name": "J3_cover_M2p5_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155312
+    },
+    {
+      "id": 98,
+      "name": "J4_CSD_reducer_case",
+      "vertices": 3798,
+      "triangles": 3804,
+      "valid": true,
+      "volume_mm3": 46863.209870229985
+    },
+    {
+      "id": 99,
+      "name": "J4_CSD_rotating_output",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 4918.438188552011
+    },
+    {
+      "id": 100,
+      "name": "J4_structural_heat_spreader_case",
+      "vertices": 6958,
+      "triangles": 6932,
+      "valid": true,
+      "volume_mm3": 45936.109437168714
+    },
+    {
+      "id": 101,
+      "name": "J4_rear_service_cover",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 6255.225132562638
+    },
+    {
+      "id": 102,
+      "name": "J4_reducer_bearing_bulkhead",
+      "vertices": 3376,
+      "triangles": 3384,
+      "valid": true,
+      "volume_mm3": 7191.478805274282
+    },
+    {
+      "id": 103,
+      "name": "J4_motor_flange_standoff",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 12117.941249782092
+    },
+    {
+      "id": 104,
+      "name": "J4_input_bearing_front",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1024.94460323367
+    },
+    {
+      "id": 105,
+      "name": "J4_motor_mounting_flange",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 8242.565229297008
+    },
+    {
+      "id": 106,
+      "name": "J4_motor_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 14495.190693938794
+    },
+    {
+      "id": 107,
+      "name": "J4_motor_rotor",
+      "vertices": 1688,
+      "triangles": 1680,
+      "valid": true,
+      "volume_mm3": 2322.9269874862366
+    },
+    {
+      "id": 108,
+      "name": "J4_stepped_rotor_carrier",
+      "vertices": 2320,
+      "triangles": 2306,
+      "valid": true,
+      "volume_mm3": 6324.269390859127
+    },
+    {
+      "id": 109,
+      "name": "J4_input_bearing_rear",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1024.94460323367
+    },
+    {
+      "id": 110,
+      "name": "J4_rear_bearing_brake_support",
+      "vertices": 1688,
+      "triangles": 1688,
+      "valid": true,
+      "volume_mm3": 12204.688476929341
+    },
+    {
+      "id": 111,
+      "name": "J4_spring_applied_brake_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 15315.264186250237
+    },
+    {
+      "id": 112,
+      "name": "J4_brake_rotor_and_hub",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1357.1680263507917
+    },
+    {
+      "id": 113,
+      "name": "J4_encoder_board",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 603.185789489238
+    },
+    {
+      "id": 114,
+      "name": "J4_encoder_magnet_target",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 140.8690145869663
+    },
+    {
+      "id": 115,
+      "name": "J4_output_link_adapter",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 7290.065752655116
+    },
+    {
+      "id": 116,
+      "name": "J4_output_bolt_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 117,
+      "name": "J4_output_bolt_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 118,
+      "name": "J4_output_bolt_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.7335723285543
+    },
+    {
+      "id": 119,
+      "name": "J4_output_bolt_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 120,
+      "name": "J4_output_bolt_5",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 121,
+      "name": "J4_output_bolt_6",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 122,
+      "name": "J4_output_bolt_7",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 123,
+      "name": "J4_output_bolt_8",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 124,
+      "name": "J4_output_bolt_9",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 125,
+      "name": "J4_output_bolt_10",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 161.73357232855432
+    },
+    {
+      "id": 126,
+      "name": "J4_cover_M2p5_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 127,
+      "name": "J4_cover_M2p5_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 128,
+      "name": "J4_cover_M2p5_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 129,
+      "name": "J4_cover_M2p5_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 130,
+      "name": "J5_CSD_reducer_case",
+      "vertices": 3798,
+      "triangles": 3804,
+      "valid": true,
+      "volume_mm3": 46863.20987022999
+    },
+    {
+      "id": 131,
+      "name": "J5_CSD_rotating_output",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 4918.438188552011
+    },
+    {
+      "id": 132,
+      "name": "J5_structural_heat_spreader_case",
+      "vertices": 6958,
+      "triangles": 6932,
+      "valid": true,
+      "volume_mm3": 45936.109437168714
+    },
+    {
+      "id": 133,
+      "name": "J5_rear_service_cover",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 6255.225132562638
+    },
+    {
+      "id": 134,
+      "name": "J5_reducer_bearing_bulkhead",
+      "vertices": 3376,
+      "triangles": 3384,
+      "valid": true,
+      "volume_mm3": 7191.478805274282
+    },
+    {
+      "id": 135,
+      "name": "J5_motor_flange_standoff",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 12117.941249782092
+    },
+    {
+      "id": 136,
+      "name": "J5_input_bearing_front",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1024.94460323367
+    },
+    {
+      "id": 137,
+      "name": "J5_motor_mounting_flange",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 8242.565229297008
+    },
+    {
+      "id": 138,
+      "name": "J5_motor_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 14495.190693938794
+    },
+    {
+      "id": 139,
+      "name": "J5_motor_rotor",
+      "vertices": 1688,
+      "triangles": 1680,
+      "valid": true,
+      "volume_mm3": 2322.926987486238
+    },
+    {
+      "id": 140,
+      "name": "J5_stepped_rotor_carrier",
+      "vertices": 2320,
+      "triangles": 2306,
+      "valid": true,
+      "volume_mm3": 6324.269390859127
+    },
+    {
+      "id": 141,
+      "name": "J5_input_bearing_rear",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1024.94460323367
+    },
+    {
+      "id": 142,
+      "name": "J5_rear_bearing_brake_support",
+      "vertices": 1688,
+      "triangles": 1688,
+      "valid": true,
+      "volume_mm3": 12204.688476929341
+    },
+    {
+      "id": 143,
+      "name": "J5_spring_applied_brake_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 15315.264186250237
+    },
+    {
+      "id": 144,
+      "name": "J5_brake_rotor_and_hub",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1357.1680263507915
+    },
+    {
+      "id": 145,
+      "name": "J5_encoder_board",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 603.185789489238
+    },
+    {
+      "id": 146,
+      "name": "J5_encoder_magnet_target",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 140.86901458696633
+    },
+    {
+      "id": 147,
+      "name": "J5_output_link_adapter",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 7290.065752655117
+    },
+    {
+      "id": 148,
+      "name": "J5_case_mount_M4_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455905
+    },
+    {
+      "id": 149,
+      "name": "J5_case_mount_M4_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.7903113045591
+    },
+    {
+      "id": 150,
+      "name": "J5_case_mount_M4_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455905
+    },
+    {
+      "id": 151,
+      "name": "J5_case_mount_M4_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455905
+    },
+    {
+      "id": 152,
+      "name": "J5_output_bolt_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797728
+    },
+    {
+      "id": 153,
+      "name": "J5_output_bolt_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797728
+    },
+    {
+      "id": 154,
+      "name": "J5_output_bolt_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797725
+    },
+    {
+      "id": 155,
+      "name": "J5_output_bolt_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797725
+    },
+    {
+      "id": 156,
+      "name": "J5_output_bolt_5",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797728
+    },
+    {
+      "id": 157,
+      "name": "J5_output_bolt_6",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797728
+    },
+    {
+      "id": 158,
+      "name": "J5_output_bolt_7",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797728
+    },
+    {
+      "id": 159,
+      "name": "J5_output_bolt_8",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797725
+    },
+    {
+      "id": 160,
+      "name": "J5_output_bolt_9",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797728
+    },
+    {
+      "id": 161,
+      "name": "J5_output_bolt_10",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 154.66498885797728
+    },
+    {
+      "id": 162,
+      "name": "J5_cover_M2p5_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 163,
+      "name": "J5_cover_M2p5_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 164,
+      "name": "J5_cover_M2p5_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 165,
+      "name": "J5_cover_M2p5_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 166,
+      "name": "J6_CSD_reducer_case",
+      "vertices": 3798,
+      "triangles": 3804,
+      "valid": true,
+      "volume_mm3": 46863.209870229985
+    },
+    {
+      "id": 167,
+      "name": "J6_CSD_rotating_output",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 4918.43818855201
+    },
+    {
+      "id": 168,
+      "name": "J6_structural_heat_spreader_case",
+      "vertices": 6958,
+      "triangles": 6932,
+      "valid": true,
+      "volume_mm3": 45936.10943716877
+    },
+    {
+      "id": 169,
+      "name": "J6_rear_service_cover",
+      "vertices": 2532,
+      "triangles": 2536,
+      "valid": true,
+      "volume_mm3": 6255.225132562637
+    },
+    {
+      "id": 170,
+      "name": "J6_reducer_bearing_bulkhead",
+      "vertices": 3376,
+      "triangles": 3384,
+      "valid": true,
+      "volume_mm3": 7191.4788052742815
+    },
+    {
+      "id": 171,
+      "name": "J6_motor_flange_standoff",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 12117.94124978209
+    },
+    {
+      "id": 172,
+      "name": "J6_input_bearing_front",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1024.94460323367
+    },
+    {
+      "id": 173,
+      "name": "J6_motor_mounting_flange",
+      "vertices": 2110,
+      "triangles": 2112,
+      "valid": true,
+      "volume_mm3": 8242.565229297006
+    },
+    {
+      "id": 174,
+      "name": "J6_motor_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 14495.190693938794
+    },
+    {
+      "id": 175,
+      "name": "J6_motor_rotor",
+      "vertices": 1688,
+      "triangles": 1680,
+      "valid": true,
+      "volume_mm3": 2322.9269874862384
+    },
+    {
+      "id": 176,
+      "name": "J6_stepped_rotor_carrier",
+      "vertices": 2320,
+      "triangles": 2306,
+      "valid": true,
+      "volume_mm3": 6324.269390859128
+    },
+    {
+      "id": 177,
+      "name": "J6_input_bearing_rear",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1024.94460323367
+    },
+    {
+      "id": 178,
+      "name": "J6_rear_bearing_brake_support",
+      "vertices": 1688,
+      "triangles": 1688,
+      "valid": true,
+      "volume_mm3": 12204.688476929341
+    },
+    {
+      "id": 179,
+      "name": "J6_spring_applied_brake_stator",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 15315.264186250237
+    },
+    {
+      "id": 180,
+      "name": "J6_brake_rotor_and_hub",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 1357.1680263507917
+    },
+    {
+      "id": 181,
+      "name": "J6_encoder_board",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 603.1857894892381
+    },
+    {
+      "id": 182,
+      "name": "J6_encoder_magnet_target",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 140.86901458696633
+    },
+    {
+      "id": 183,
+      "name": "J6_output_link_adapter",
+      "vertices": 5064,
+      "triangles": 5080,
+      "valid": true,
+      "volume_mm3": 7290.065752655115
+    },
+    {
+      "id": 184,
+      "name": "J6_case_mount_M4_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455894
+    },
+    {
+      "id": 185,
+      "name": "J6_case_mount_M4_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.790311304559
+    },
+    {
+      "id": 186,
+      "name": "J6_case_mount_M4_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455894
+    },
+    {
+      "id": 187,
+      "name": "J6_case_mount_M4_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 210.79031130455894
+    },
+    {
+      "id": 188,
+      "name": "J6_output_bolt_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 189,
+      "name": "J6_output_bolt_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 190,
+      "name": "J6_output_bolt_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 191,
+      "name": "J6_output_bolt_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 192,
+      "name": "J6_output_bolt_5",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 193,
+      "name": "J6_output_bolt_6",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 194,
+      "name": "J6_output_bolt_7",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 195,
+      "name": "J6_output_bolt_8",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 196,
+      "name": "J6_output_bolt_9",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.90392306967024
+    },
+    {
+      "id": 197,
+      "name": "J6_output_bolt_10",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 199.9039230696702
+    },
+    {
+      "id": 198,
+      "name": "J6_cover_M2p5_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 199,
+      "name": "J6_cover_M2p5_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 200,
+      "name": "J6_cover_M2p5_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 201,
+      "name": "J6_cover_M2p5_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 50.2352937155311
+    },
+    {
+      "id": 202,
+      "name": "bench_M8_1",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 1585.7915255215992
+    },
+    {
+      "id": 203,
+      "name": "bench_M8_2",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 1585.7915255215992
+    },
+    {
+      "id": 204,
+      "name": "bench_M8_3",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 1585.7915255215992
+    },
+    {
+      "id": 205,
+      "name": "bench_M8_4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 1585.7915255215992
+    },
+    {
+      "id": 206,
+      "name": "base_clamp_M5_30",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 578.5969364886747
+    },
+    {
+      "id": 207,
+      "name": "base_clamp_nut_M5_30",
+      "vertices": 458,
+      "triangles": 444,
+      "valid": true,
+      "volume_mm3": 164.4834761196206
+    },
+    {
+      "id": 208,
+      "name": "base_clamp_M5_55",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 578.5969364886747
+    },
+    {
+      "id": 209,
+      "name": "base_clamp_nut_M5_55",
+      "vertices": 458,
+      "triangles": 444,
+      "valid": true,
+      "volume_mm3": 164.48347611962055
+    },
+    {
+      "id": 210,
+      "name": "upper_service_panel_-1",
+      "vertices": 1712,
+      "triangles": 1708,
+      "valid": true,
+      "volume_mm3": 9130.646684332996
+    },
+    {
+      "id": 211,
+      "name": "upper_panel_screw_-1_-19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673062994
+    },
+    {
+      "id": 212,
+      "name": "upper_panel_screw_-1_-19_220",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673063015
+    },
+    {
+      "id": 213,
+      "name": "upper_panel_screw_-1_19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673062994
+    },
+    {
+      "id": 214,
+      "name": "upper_panel_screw_-1_19_220",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673063015
+    },
+    {
+      "id": 215,
+      "name": "upper_service_panel_1",
+      "vertices": 1712,
+      "triangles": 1708,
+      "valid": true,
+      "volume_mm3": 9130.646684332996
+    },
+    {
+      "id": 216,
+      "name": "upper_panel_screw_1_-19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673062994
+    },
+    {
+      "id": 217,
+      "name": "upper_panel_screw_1_-19_220",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673063015
+    },
+    {
+      "id": 218,
+      "name": "upper_panel_screw_1_19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673062994
+    },
+    {
+      "id": 219,
+      "name": "upper_panel_screw_1_19_220",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.417816673063015
+    },
+    {
+      "id": 220,
+      "name": "fore_service_panel_-1",
+      "vertices": 1712,
+      "triangles": 1708,
+      "valid": true,
+      "volume_mm3": 1657.6466843329958
+    },
+    {
+      "id": 221,
+      "name": "fore_panel_screw_-1_-19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 222,
+      "name": "fore_panel_screw_-1_-19_114",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 223,
+      "name": "fore_panel_screw_-1_19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 224,
+      "name": "fore_panel_screw_-1_19_114",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 225,
+      "name": "fore_service_panel_1",
+      "vertices": 1712,
+      "triangles": 1708,
+      "valid": true,
+      "volume_mm3": 1657.6466843329958
+    },
+    {
+      "id": 226,
+      "name": "fore_panel_screw_1_-19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 227,
+      "name": "fore_panel_screw_1_-19_114",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 228,
+      "name": "fore_panel_screw_1_19_96",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 229,
+      "name": "fore_panel_screw_1_19_114",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 40.41781667306299
+    },
+    {
+      "id": 230,
+      "name": "fore_roll_clamp_M4",
+      "vertices": 1266,
+      "triangles": 1256,
+      "valid": true,
+      "volume_mm3": 311.3212762194323
+    },
+    {
+      "id": 231,
+      "name": "fore_roll_clamp_nut_M4",
+      "vertices": 458,
+      "triangles": 444,
+      "valid": true,
+      "volume_mm3": 86.44696746889198
+    },
+    {
+      "id": 232,
+      "name": "wrist_idle_bearing",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 879.645943005142
+    },
+    {
+      "id": 233,
+      "name": "wrist_idle_trunnion",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 1021.0176124166828
+    },
+    {
+      "id": 234,
+      "name": "tool_gripper_mount_neck",
+      "vertices": 5022,
+      "triangles": 4988,
+      "valid": true,
+      "volume_mm3": 5381.5666567399485
+    },
+    {
+      "id": 235,
+      "name": "gripper_bridge_8",
+      "vertices": 15394,
+      "triangles": 15284,
+      "valid": true,
+      "volume_mm3": 26813.24628726072
+    },
+    {
+      "id": 236,
+      "name": "gripper_motor",
+      "vertices": 24,
+      "triangles": 12,
+      "valid": true,
+      "volume_mm3": 3840.0
+    },
+    {
+      "id": 237,
+      "name": "gripper_pinion_m0p3_z20_10",
+      "vertices": 7720,
+      "triangles": 5710,
+      "valid": true,
+      "volume_mm3": 312.64468234305787
+    },
+    {
+      "id": 238,
+      "name": "pinion_front_bushing_11",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 156.6068229851244
+    },
+    {
+      "id": 239,
+      "name": "guide_rod_-10",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 1332.0352851220714
+    },
+    {
+      "id": 240,
+      "name": "guide_rod_10",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 1332.0352851220714
+    },
+    {
+      "id": 241,
+      "name": "right_jaw_carriage_0",
+      "vertices": 1378,
+      "triangles": 1348,
+      "valid": true,
+      "volume_mm3": 6333.79012788277
+    },
+    {
+      "id": 242,
+      "name": "finger_pad_1",
+      "vertices": 48,
+      "triangles": 28,
+      "valid": true,
+      "volume_mm3": 789.4079999999999
+    },
+    {
+      "id": 243,
+      "name": "jaw_guide_bushing_2",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 124.65588322032016
+    },
+    {
+      "id": 244,
+      "name": "jaw_guide_bushing_3",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 124.65588322032015
+    },
+    {
+      "id": 245,
+      "name": "upper_rack",
+      "vertices": 1862,
+      "triangles": 1244,
+      "valid": true,
+      "volume_mm3": 951.0029052375191
+    },
+    {
+      "id": 246,
+      "name": "gripper_cable_clamp_mount_14",
+      "vertices": 1736,
+      "triangles": 1724,
+      "valid": true,
+      "volume_mm3": 1706.3783682138258
+    },
+    {
+      "id": 247,
+      "name": "gripper_cable_clamp_base_15",
+      "vertices": 1088,
+      "triangles": 1076,
+      "valid": true,
+      "volume_mm3": 296.6683709268178
+    },
+    {
+      "id": 248,
+      "name": "gripper_cable_clamp_cap_16",
+      "vertices": 1088,
+      "triangles": 1076,
+      "valid": true,
+      "volume_mm3": 296.6683709268177
+    },
+    {
+      "id": 249,
+      "name": "gripper_cable_clamp_liner_17",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 49.480084294039216
+    },
+    {
+      "id": 250,
+      "name": "left_carriage",
+      "vertices": 1378,
+      "triangles": 1348,
+      "valid": true,
+      "volume_mm3": 6333.790127882772
+    },
+    {
+      "id": 251,
+      "name": "left_pad",
+      "vertices": 48,
+      "triangles": 28,
+      "valid": true,
+      "volume_mm3": 788.0489999999999
+    },
+    {
+      "id": 252,
+      "name": "left_lower_rack",
+      "vertices": 1862,
+      "triangles": 1244,
+      "valid": true,
+      "volume_mm3": 951.0029052375197
+    },
+    {
+      "id": 253,
+      "name": "left_guide_bushing_-10",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 124.65588322032016
+    },
+    {
+      "id": 254,
+      "name": "left_guide_bushing_10",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 124.65588322032015
+    },
+    {
+      "id": 255,
+      "name": "workpiece",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 30347.785033677403
+    },
+    {
+      "id": 256,
+      "name": "nest_A_base",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 30300.133356307768
+    },
+    {
+      "id": 257,
+      "name": "nest_A_seat",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 5089.380098815465
+    },
+    {
+      "id": 258,
+      "name": "nest_B_base",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 30300.13335630776
+    },
+    {
+      "id": 259,
+      "name": "nest_B_seat",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 5089.380098815465
+    },
+    {
+      "id": 260,
+      "name": "CB2_captured_spring_case",
+      "vertices": 2110,
+      "triangles": 2100,
+      "valid": true,
+      "volume_mm3": 39814.069056851506
+    },
+    {
+      "id": 261,
+      "name": "CB2_spring_cover",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 8984.954989266807
+    },
+    {
+      "id": 262,
+      "name": "CB2_reaction_arbor",
+      "vertices": 2208,
+      "triangles": 2184,
+      "valid": true,
+      "volume_mm3": 20685.9012084663
+    },
+    {
+      "id": 263,
+      "name": "CB2_torsion_spring",
+      "vertices": 82375,
+      "triangles": 161624,
+      "valid": true,
+      "volume_mm3": 18777.131963814816
+    },
+    {
+      "id": 264,
+      "name": "CB2_fixed_leg_reaction_pin",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 63.61725123519336
+    },
+    {
+      "id": 265,
+      "name": "CB2_moving_leg_reaction_pin",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 63.6172512351933
+    },
+    {
+      "id": 266,
+      "name": "CB3_captured_spring_case",
+      "vertices": 2110,
+      "triangles": 2100,
+      "valid": true,
+      "volume_mm3": 28007.17846649768
+    },
+    {
+      "id": 267,
+      "name": "CB3_spring_cover",
+      "vertices": 844,
+      "triangles": 840,
+      "valid": true,
+      "volume_mm3": 6198.755004614361
+    },
+    {
+      "id": 268,
+      "name": "CB3_reaction_arbor",
+      "vertices": 2208,
+      "triangles": 2184,
+      "valid": true,
+      "volume_mm3": 17452.38377691574
+    },
+    {
+      "id": 269,
+      "name": "CB3_torsion_spring",
+      "vertices": 44211,
+      "triangles": 86102,
+      "valid": true,
+      "volume_mm3": 5021.347265883693
+    },
+    {
+      "id": 270,
+      "name": "CB3_fixed_leg_reaction_pin",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 56.548667764616226
+    },
+    {
+      "id": 271,
+      "name": "CB3_moving_leg_reaction_pin",
+      "vertices": 422,
+      "triangles": 416,
+      "valid": true,
+      "volume_mm3": 56.54866776461626
+    },
+    {
+      "id": 272,
+      "name": "base_weldment",
+      "vertices": 6360,
+      "triangles": 6220,
+      "valid": true,
+      "volume_mm3": 558061.169398888
+    },
+    {
+      "id": 273,
+      "name": "turret_U_yoke",
+      "vertices": 8594,
+      "triangles": 8542,
+      "valid": true,
+      "volume_mm3": 65161.79003712748
+    },
+    {
+      "id": 274,
+      "name": "upper_structural_frame",
+      "vertices": 13018,
+      "triangles": 12898,
+      "valid": true,
+      "volume_mm3": 138360.84266549113
+    },
+    {
+      "id": 275,
+      "name": "fore_structural_frame",
+      "vertices": 9650,
+      "triangles": 9528,
+      "valid": true,
+      "volume_mm3": 77764.68392942971
+    },
+    {
+      "id": 276,
+      "name": "wrist_roll_yoke",
+      "vertices": 9438,
+      "triangles": 9380,
+      "valid": true,
+      "volume_mm3": 39412.15124416046
+    },
+    {
+      "id": 277,
+      "name": "wrist_bend_frame",
+      "vertices": 9477,
+      "triangles": 9404,
+      "valid": true,
+      "volume_mm3": 77181.00353297529
+    }
+  ],
+  "source_unchanged": true,
+  "linear_deflection_mm": 0.045,
+  "angular_deflection_rad": 0.12
+}
