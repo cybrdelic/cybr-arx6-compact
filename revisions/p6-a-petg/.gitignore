@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.venv/
+/ARX6-P6-PETG-operating-pose.step

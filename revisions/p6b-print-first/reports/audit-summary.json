@@ -1,0 +1,32 @@
+{
+  "inventory_instances": 398,
+  "target_counts": {
+    "PRINTED_REDUCTION_REDESIGN": 12,
+    "PRINT_PETG_HOUSING_REDESIGN": 6,
+    "PRINT_PETG_EXISTING_PROTOTYPE": 10,
+    "PRINT_PETG_CUSTOM_REDESIGN": 30,
+    "METAL_PRECISION_WEAR_HARDWARE": 17,
+    "HYBRID_PRINTED_MOUNT_THERMAL_INSERT": 6,
+    "PURCHASE_ELECTROMAGNETIC_PART": 25,
+    "PRINT_HYBRID_HUB_REDESIGN": 8,
+    "PURCHASE_BRAKE_FUNCTION": 12,
+    "METAL_FASTENER": 121,
+    "PRINTED_GEAR_REDESIGN": 3,
+    "PRINT_TPU": 43,
+    "PRINT_PETG_WEAR_TRIAL": 4,
+    "EXTERNAL_TEST_PAYLOAD": 1,
+    "PRINT_PETG_FIXTURE": 4,
+    "PRINT_PETG_ENCLOSURE_REDESIGN": 4,
+    "METAL_SPRING_OR_PIN": 6,
+    "PRINT_PETG_STRUCTURE_REDESIGN": 6,
+    "METAL_COMPRESSION_HARDWARE": 80
+  },
+  "printed_or_print_redesign_instances": 136,
+  "scope": "Every P6-A instance explicitly reviewed. Targets do not imply completed/qualified CAD conversions.",
+  "policy": "No custom part is retained in metal merely because it carries load. Printed structural and transmission redesigns are in scope.",
+  "printer_basis": "Bambu A1; 256 mm nominal cube; fit results use a separate 246 mm per-axis prototype planning envelope with a 5 mm margin.",
+  "preserved_source_sha256": {
+    "P6A-design.json": "0451e4c60bcab11c47abff27d402cf840cc5d5d2b5b74080c145b0d788269e14",
+    "P5-design.json": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0"
+  }
+}

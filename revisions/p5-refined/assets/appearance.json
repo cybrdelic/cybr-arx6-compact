@@ -1,0 +1,1677 @@
+{
+  "scope": "Display/material shader assignments, not changes to the physical material or density model",
+  "part_assignments": [
+    {
+      "id": 0,
+      "name": "J1_CSD_reducer_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 1,
+      "name": "J1_CSD_rotating_output",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 2,
+      "name": "J1_structural_heat_spreader_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 3,
+      "name": "J1_rear_service_cover",
+      "appearance": "turned_dark_anodized_cap",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 4,
+      "name": "J1_reducer_bearing_bulkhead",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 5,
+      "name": "J1_motor_flange_standoff",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 6,
+      "name": "J1_input_bearing_front",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 7,
+      "name": "J1_motor_mounting_flange",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 8,
+      "name": "J1_motor_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 9,
+      "name": "J1_motor_rotor",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 10,
+      "name": "J1_stepped_rotor_carrier",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 11,
+      "name": "J1_input_bearing_rear",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 12,
+      "name": "J1_rear_bearing_brake_support",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 13,
+      "name": "J1_spring_applied_brake_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 14,
+      "name": "J1_brake_rotor_and_hub",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 15,
+      "name": "J1_encoder_board",
+      "appearance": "pcb",
+      "physical_material_unchanged": "pcb"
+    },
+    {
+      "id": 16,
+      "name": "J1_encoder_magnet_target",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 17,
+      "name": "J1_output_link_adapter",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 18,
+      "name": "J1_output_bolt_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 19,
+      "name": "J1_output_bolt_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 20,
+      "name": "J1_output_bolt_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 21,
+      "name": "J1_output_bolt_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 22,
+      "name": "J1_output_bolt_5",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 23,
+      "name": "J1_output_bolt_6",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 24,
+      "name": "J1_output_bolt_7",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 25,
+      "name": "J1_output_bolt_8",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 26,
+      "name": "J1_cover_M2p5_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 27,
+      "name": "J1_cover_M2p5_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 28,
+      "name": "J1_cover_M2p5_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 29,
+      "name": "J1_cover_M2p5_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 30,
+      "name": "J2_CSD_reducer_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 31,
+      "name": "J2_CSD_rotating_output",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 32,
+      "name": "J2_structural_heat_spreader_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 33,
+      "name": "J2_rear_service_cover",
+      "appearance": "turned_dark_anodized_cap",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 34,
+      "name": "J2_reducer_bearing_bulkhead",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 35,
+      "name": "J2_motor_flange_standoff",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 36,
+      "name": "J2_input_bearing_front",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 37,
+      "name": "J2_motor_mounting_flange",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 38,
+      "name": "J2_motor_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 39,
+      "name": "J2_motor_rotor",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 40,
+      "name": "J2_stepped_rotor_carrier",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 41,
+      "name": "J2_input_bearing_rear",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 42,
+      "name": "J2_rear_bearing_brake_support",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 43,
+      "name": "J2_spring_applied_brake_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 44,
+      "name": "J2_brake_rotor_and_hub",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 45,
+      "name": "J2_encoder_board",
+      "appearance": "pcb",
+      "physical_material_unchanged": "pcb"
+    },
+    {
+      "id": 46,
+      "name": "J2_encoder_magnet_target",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 47,
+      "name": "J2_output_link_adapter",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 48,
+      "name": "J2_case_mount_M4_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 49,
+      "name": "J2_case_mount_M4_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 50,
+      "name": "J2_case_mount_M4_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 51,
+      "name": "J2_case_mount_M4_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 52,
+      "name": "J2_output_bolt_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 53,
+      "name": "J2_output_bolt_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 54,
+      "name": "J2_output_bolt_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 55,
+      "name": "J2_output_bolt_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 56,
+      "name": "J2_output_bolt_5",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 57,
+      "name": "J2_output_bolt_6",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 58,
+      "name": "J2_output_bolt_7",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 59,
+      "name": "J2_output_bolt_8",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 60,
+      "name": "J2_cover_M2p5_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 61,
+      "name": "J2_cover_M2p5_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 62,
+      "name": "J2_cover_M2p5_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 63,
+      "name": "J2_cover_M2p5_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 64,
+      "name": "J3_CSD_reducer_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 65,
+      "name": "J3_CSD_rotating_output",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 66,
+      "name": "J3_structural_heat_spreader_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 67,
+      "name": "J3_rear_service_cover",
+      "appearance": "turned_dark_anodized_cap",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 68,
+      "name": "J3_reducer_bearing_bulkhead",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 69,
+      "name": "J3_motor_flange_standoff",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 70,
+      "name": "J3_input_bearing_front",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 71,
+      "name": "J3_motor_mounting_flange",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 72,
+      "name": "J3_motor_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 73,
+      "name": "J3_motor_rotor",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 74,
+      "name": "J3_stepped_rotor_carrier",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 75,
+      "name": "J3_input_bearing_rear",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 76,
+      "name": "J3_rear_bearing_brake_support",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 77,
+      "name": "J3_spring_applied_brake_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 78,
+      "name": "J3_brake_rotor_and_hub",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 79,
+      "name": "J3_encoder_board",
+      "appearance": "pcb",
+      "physical_material_unchanged": "pcb"
+    },
+    {
+      "id": 80,
+      "name": "J3_encoder_magnet_target",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 81,
+      "name": "J3_output_link_adapter",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 82,
+      "name": "J3_case_mount_M4_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 83,
+      "name": "J3_case_mount_M4_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 84,
+      "name": "J3_case_mount_M4_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 85,
+      "name": "J3_case_mount_M4_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 86,
+      "name": "J3_output_bolt_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 87,
+      "name": "J3_output_bolt_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 88,
+      "name": "J3_output_bolt_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 89,
+      "name": "J3_output_bolt_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 90,
+      "name": "J3_output_bolt_5",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 91,
+      "name": "J3_output_bolt_6",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 92,
+      "name": "J3_output_bolt_7",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 93,
+      "name": "J3_output_bolt_8",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 94,
+      "name": "J3_cover_M2p5_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 95,
+      "name": "J3_cover_M2p5_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 96,
+      "name": "J3_cover_M2p5_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 97,
+      "name": "J3_cover_M2p5_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 98,
+      "name": "J4_CSD_reducer_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 99,
+      "name": "J4_CSD_rotating_output",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 100,
+      "name": "J4_structural_heat_spreader_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 101,
+      "name": "J4_rear_service_cover",
+      "appearance": "turned_dark_anodized_cap",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 102,
+      "name": "J4_reducer_bearing_bulkhead",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 103,
+      "name": "J4_motor_flange_standoff",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 104,
+      "name": "J4_input_bearing_front",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 105,
+      "name": "J4_motor_mounting_flange",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 106,
+      "name": "J4_motor_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 107,
+      "name": "J4_motor_rotor",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 108,
+      "name": "J4_stepped_rotor_carrier",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 109,
+      "name": "J4_input_bearing_rear",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 110,
+      "name": "J4_rear_bearing_brake_support",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 111,
+      "name": "J4_spring_applied_brake_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 112,
+      "name": "J4_brake_rotor_and_hub",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 113,
+      "name": "J4_encoder_board",
+      "appearance": "pcb",
+      "physical_material_unchanged": "pcb"
+    },
+    {
+      "id": 114,
+      "name": "J4_encoder_magnet_target",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 115,
+      "name": "J4_output_link_adapter",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 116,
+      "name": "J4_output_bolt_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 117,
+      "name": "J4_output_bolt_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 118,
+      "name": "J4_output_bolt_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 119,
+      "name": "J4_output_bolt_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 120,
+      "name": "J4_output_bolt_5",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 121,
+      "name": "J4_output_bolt_6",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 122,
+      "name": "J4_output_bolt_7",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 123,
+      "name": "J4_output_bolt_8",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 124,
+      "name": "J4_output_bolt_9",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 125,
+      "name": "J4_output_bolt_10",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 126,
+      "name": "J4_cover_M2p5_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 127,
+      "name": "J4_cover_M2p5_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 128,
+      "name": "J4_cover_M2p5_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 129,
+      "name": "J4_cover_M2p5_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 130,
+      "name": "J5_CSD_reducer_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 131,
+      "name": "J5_CSD_rotating_output",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 132,
+      "name": "J5_structural_heat_spreader_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 133,
+      "name": "J5_rear_service_cover",
+      "appearance": "turned_dark_anodized_cap",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 134,
+      "name": "J5_reducer_bearing_bulkhead",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 135,
+      "name": "J5_motor_flange_standoff",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 136,
+      "name": "J5_input_bearing_front",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 137,
+      "name": "J5_motor_mounting_flange",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 138,
+      "name": "J5_motor_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 139,
+      "name": "J5_motor_rotor",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 140,
+      "name": "J5_stepped_rotor_carrier",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 141,
+      "name": "J5_input_bearing_rear",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 142,
+      "name": "J5_rear_bearing_brake_support",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 143,
+      "name": "J5_spring_applied_brake_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 144,
+      "name": "J5_brake_rotor_and_hub",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 145,
+      "name": "J5_encoder_board",
+      "appearance": "pcb",
+      "physical_material_unchanged": "pcb"
+    },
+    {
+      "id": 146,
+      "name": "J5_encoder_magnet_target",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 147,
+      "name": "J5_output_link_adapter",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 148,
+      "name": "J5_case_mount_M4_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 149,
+      "name": "J5_case_mount_M4_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 150,
+      "name": "J5_case_mount_M4_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 151,
+      "name": "J5_case_mount_M4_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 152,
+      "name": "J5_output_bolt_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 153,
+      "name": "J5_output_bolt_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 154,
+      "name": "J5_output_bolt_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 155,
+      "name": "J5_output_bolt_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 156,
+      "name": "J5_output_bolt_5",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 157,
+      "name": "J5_output_bolt_6",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 158,
+      "name": "J5_output_bolt_7",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 159,
+      "name": "J5_output_bolt_8",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 160,
+      "name": "J5_output_bolt_9",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 161,
+      "name": "J5_output_bolt_10",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 162,
+      "name": "J5_cover_M2p5_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 163,
+      "name": "J5_cover_M2p5_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 164,
+      "name": "J5_cover_M2p5_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 165,
+      "name": "J5_cover_M2p5_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 166,
+      "name": "J6_CSD_reducer_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 167,
+      "name": "J6_CSD_rotating_output",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 168,
+      "name": "J6_structural_heat_spreader_case",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 169,
+      "name": "J6_rear_service_cover",
+      "appearance": "turned_dark_anodized_cap",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 170,
+      "name": "J6_reducer_bearing_bulkhead",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 171,
+      "name": "J6_motor_flange_standoff",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 172,
+      "name": "J6_input_bearing_front",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 173,
+      "name": "J6_motor_mounting_flange",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 174,
+      "name": "J6_motor_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 175,
+      "name": "J6_motor_rotor",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 176,
+      "name": "J6_stepped_rotor_carrier",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 177,
+      "name": "J6_input_bearing_rear",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 178,
+      "name": "J6_rear_bearing_brake_support",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 179,
+      "name": "J6_spring_applied_brake_stator",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 180,
+      "name": "J6_brake_rotor_and_hub",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 181,
+      "name": "J6_encoder_board",
+      "appearance": "pcb",
+      "physical_material_unchanged": "pcb"
+    },
+    {
+      "id": 182,
+      "name": "J6_encoder_magnet_target",
+      "appearance": "brass",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 183,
+      "name": "J6_output_link_adapter",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 184,
+      "name": "J6_case_mount_M4_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 185,
+      "name": "J6_case_mount_M4_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 186,
+      "name": "J6_case_mount_M4_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 187,
+      "name": "J6_case_mount_M4_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 188,
+      "name": "J6_output_bolt_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 189,
+      "name": "J6_output_bolt_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 190,
+      "name": "J6_output_bolt_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 191,
+      "name": "J6_output_bolt_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 192,
+      "name": "J6_output_bolt_5",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 193,
+      "name": "J6_output_bolt_6",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 194,
+      "name": "J6_output_bolt_7",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 195,
+      "name": "J6_output_bolt_8",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 196,
+      "name": "J6_output_bolt_9",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 197,
+      "name": "J6_output_bolt_10",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 198,
+      "name": "J6_cover_M2p5_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 199,
+      "name": "J6_cover_M2p5_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 200,
+      "name": "J6_cover_M2p5_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 201,
+      "name": "J6_cover_M2p5_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 202,
+      "name": "bench_M8_1",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 203,
+      "name": "bench_M8_2",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 204,
+      "name": "bench_M8_3",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 205,
+      "name": "bench_M8_4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 206,
+      "name": "base_clamp_M5_30",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 207,
+      "name": "base_clamp_nut_M5_30",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 208,
+      "name": "base_clamp_M5_55",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 209,
+      "name": "base_clamp_nut_M5_55",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 210,
+      "name": "upper_service_panel_-1",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 211,
+      "name": "upper_panel_screw_-1_-19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 212,
+      "name": "upper_panel_screw_-1_-19_220",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 213,
+      "name": "upper_panel_screw_-1_19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 214,
+      "name": "upper_panel_screw_-1_19_220",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 215,
+      "name": "upper_service_panel_1",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 216,
+      "name": "upper_panel_screw_1_-19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 217,
+      "name": "upper_panel_screw_1_-19_220",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 218,
+      "name": "upper_panel_screw_1_19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 219,
+      "name": "upper_panel_screw_1_19_220",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 220,
+      "name": "fore_service_panel_-1",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 221,
+      "name": "fore_panel_screw_-1_-19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 222,
+      "name": "fore_panel_screw_-1_-19_114",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 223,
+      "name": "fore_panel_screw_-1_19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 224,
+      "name": "fore_panel_screw_-1_19_114",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 225,
+      "name": "fore_service_panel_1",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 226,
+      "name": "fore_panel_screw_1_-19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 227,
+      "name": "fore_panel_screw_1_-19_114",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 228,
+      "name": "fore_panel_screw_1_19_96",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 229,
+      "name": "fore_panel_screw_1_19_114",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 230,
+      "name": "fore_roll_clamp_M4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 231,
+      "name": "fore_roll_clamp_nut_M4",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 232,
+      "name": "wrist_idle_bearing",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 233,
+      "name": "wrist_idle_trunnion",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 234,
+      "name": "tool_gripper_mount_neck",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 235,
+      "name": "gripper_bridge_8",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 236,
+      "name": "gripper_motor",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 237,
+      "name": "gripper_pinion_m0p3_z20_10",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 238,
+      "name": "pinion_front_bushing_11",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 239,
+      "name": "guide_rod_-10",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 240,
+      "name": "guide_rod_10",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 241,
+      "name": "right_jaw_carriage_0",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 242,
+      "name": "finger_pad_1",
+      "appearance": "rubber",
+      "physical_material_unchanged": "rubber"
+    },
+    {
+      "id": 243,
+      "name": "jaw_guide_bushing_2",
+      "appearance": "polymer",
+      "physical_material_unchanged": "polymer"
+    },
+    {
+      "id": 244,
+      "name": "jaw_guide_bushing_3",
+      "appearance": "polymer",
+      "physical_material_unchanged": "polymer"
+    },
+    {
+      "id": 245,
+      "name": "upper_rack",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 246,
+      "name": "gripper_cable_clamp_mount_14",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 247,
+      "name": "gripper_cable_clamp_base_15",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 248,
+      "name": "gripper_cable_clamp_cap_16",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 249,
+      "name": "gripper_cable_clamp_liner_17",
+      "appearance": "rubber",
+      "physical_material_unchanged": "rubber"
+    },
+    {
+      "id": 250,
+      "name": "left_carriage",
+      "appearance": "brushed_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 251,
+      "name": "left_pad",
+      "appearance": "rubber",
+      "physical_material_unchanged": "rubber"
+    },
+    {
+      "id": 252,
+      "name": "left_lower_rack",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 253,
+      "name": "left_guide_bushing_-10",
+      "appearance": "polymer",
+      "physical_material_unchanged": "polymer"
+    },
+    {
+      "id": 254,
+      "name": "left_guide_bushing_10",
+      "appearance": "polymer",
+      "physical_material_unchanged": "polymer"
+    },
+    {
+      "id": 255,
+      "name": "workpiece",
+      "appearance": "brass",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 256,
+      "name": "nest_A_base",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 257,
+      "name": "nest_A_seat",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 258,
+      "name": "nest_B_base",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 259,
+      "name": "nest_B_seat",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 260,
+      "name": "CB2_captured_spring_case",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 261,
+      "name": "CB2_spring_cover",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 262,
+      "name": "CB2_reaction_arbor",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 263,
+      "name": "CB2_torsion_spring",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 264,
+      "name": "CB2_fixed_leg_reaction_pin",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 265,
+      "name": "CB2_moving_leg_reaction_pin",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 266,
+      "name": "CB3_captured_spring_case",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 267,
+      "name": "CB3_spring_cover",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 268,
+      "name": "CB3_reaction_arbor",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 269,
+      "name": "CB3_torsion_spring",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 270,
+      "name": "CB3_fixed_leg_reaction_pin",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 271,
+      "name": "CB3_moving_leg_reaction_pin",
+      "appearance": "satin_steel",
+      "physical_material_unchanged": "steel"
+    },
+    {
+      "id": 272,
+      "name": "base_weldment",
+      "appearance": "dark_coated_metal",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 273,
+      "name": "turret_U_yoke",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 274,
+      "name": "upper_structural_frame",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 275,
+      "name": "fore_structural_frame",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 276,
+      "name": "wrist_roll_yoke",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    },
+    {
+      "id": 277,
+      "name": "wrist_bend_frame",
+      "appearance": "satin_aluminum",
+      "physical_material_unchanged": "aluminum"
+    }
+  ],
+  "texture_space": "rigid-body-local, metres",
+  "refractive_transmission": false,
+  "white_enamel_replaced": true,
+  "measured_optical_data": false
+}

@@ -1,0 +1,269 @@
+{
+  "checks": [
+    {
+      "name": "398 unique part IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "50 replacements and 120 additions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "10 covers and 40 sites",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Complete original part dispositions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Source design hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "STEP reimports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "New parts cover/mount clearance screen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clearance used final P6 trace",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P6 body inertia tensors positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All assumed expansion cases checked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "p5refined states finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "p5refined jaw travel within CAD range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "p5refined recorded placements below chosen 1.5mm screen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "p6 states finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "p6 jaw travel within CAD range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "p6 recorded placements below chosen 1.5mm screen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-101-3.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-101-2.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-210-3.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-003-2.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-101-1.25mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-220-3.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-101-1.75mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-003-1.25mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-003-1.75mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-003-3.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-210-1.75mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-220-2.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-210-2.5mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-220-1.75mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-210-1.25mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "FEM equilibrium and rigid-translation patch: FEA-220-1.25mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unfavorable thermal outcomes not suppressed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No synthetic creep lifetime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Geometry record counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "228 retained native part records byte-identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hero final geometry hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hero final motion hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hero final renderer hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hero 1080p decoded image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hero 4K decoded image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closeup final geometry hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closeup final motion hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closeup final renderer hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closeup 1080p decoded image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closeup 4K decoded image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Both proof records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Actual C++ optical function tests",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_integrity_and_scoped_numerical_checks_pass": true,
+  "checks_count": 48,
+  "part_instances": 398,
+  "PETG_covers": 10,
+  "retained_native_parts_identical": 228,
+  "net_mass_change_g": 53.516460146570296,
+  "failed_thermal_cases": 25,
+  "thermal_cases": 40,
+  "manufacturing_qualified": false,
+  "strength_print_calibrated": false,
+  "creep_time_calibrated": false,
+  "new_motion_film": false,
+  "limitations": [
+    "These are file-integrity and explicitly bounded numerical checks, not a declaration that all engineering requirements passed.",
+    "Thermal cases fail. Peak FEM stresses and material parameters are not print-qualified.",
+    "Rigid-body contact model is a reconstruction, not the earlier full electromechanical validation."
+  ],
+  "archive": "ARX6-P6-PETG-Source-and-CAD.zip",
+  "archive_bytes": 126606156,
+  "archive_sha256": "d183f1cc6e604bb58ab557b8dd5e53a4ca70239fb76c289743222f7c5c409b06",
+  "verified_archive_members": 594,
+  "font_files_distributed": false,
+  "PDF_page_count": 8,
+  "rendering": "Actual closed-cover dielectric path tracing; native 4K, 64 paths/pixel; final 1080p reconstruction",
+  "geometry_scope": "Ten PETG covers; forty revised screws and 120 new mount pieces; main metal structure retained"
+}

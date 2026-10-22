@@ -1,0 +1,19 @@
+{
+  "schema": "lossless-gzip-parts/v1",
+  "files": [
+    {
+      "path": "ARX6-P6-PETG-operating-pose.step",
+      "bytes": 21757087,
+      "sha256": "d221151100211932e8b1251d18ae299ead2a07949f98be8cd34465305ab1b97d",
+      "gzip_bytes": 3727703,
+      "gzip_sha256": "91c0f1bbc57eeab543ec148048575b9f867330fe6104a9f8930a691768e47f8e",
+      "parts": [
+        {
+          "path": "ARX6-P6-PETG-operating-pose.step.gz.parts/part-000",
+          "bytes": 3727703,
+          "sha256": "91c0f1bbc57eeab543ec148048575b9f867330fe6104a9f8930a691768e47f8e"
+        }
+      ]
+    }
+  ]
+}

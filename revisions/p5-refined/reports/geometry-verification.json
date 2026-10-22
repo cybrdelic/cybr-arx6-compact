@@ -1,0 +1,1012 @@
+{
+  "modified_parts_checked": 123,
+  "all_modified_parts_valid": true,
+  "parts": [
+    {
+      "id": 2,
+      "name": "J1_structural_heat_spreader_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.416289804496046e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 3,
+      "name": "J1_rear_service_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.552713678800501e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 18,
+      "name": "J1_output_bolt_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.881784197001252e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 19,
+      "name": "J1_output_bolt_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.5512925105886097e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 20,
+      "name": "J1_output_bolt_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.4291679778798425e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 21,
+      "name": "J1_output_bolt_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.511013536514838e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 22,
+      "name": "J1_output_bolt_5",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0724754417879012e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 23,
+      "name": "J1_output_bolt_6",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.7533531010703882e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 24,
+      "name": "J1_output_bolt_7",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.4291679778798425e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 25,
+      "name": "J1_output_bolt_8",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.5498713423767185e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 26,
+      "name": "J1_cover_M2p5_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.482103908136196e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 27,
+      "name": "J1_cover_M2p5_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.482103908136196e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 28,
+      "name": "J1_cover_M2p5_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.175237850427948e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 29,
+      "name": "J1_cover_M2p5_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.1308289294429414e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 32,
+      "name": "J2_structural_heat_spreader_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.670841822322473e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 33,
+      "name": "J2_rear_service_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 9.769962616701378e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 52,
+      "name": "J2_output_bolt_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.1879386363489175e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 53,
+      "name": "J2_output_bolt_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.5424107263916085e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 54,
+      "name": "J2_output_bolt_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.2101430968414206e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 55,
+      "name": "J2_output_bolt_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.704148513061227e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 56,
+      "name": "J2_output_bolt_5",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.1390888232654106e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 57,
+      "name": "J2_output_bolt_6",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.9517720772910252e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 58,
+      "name": "J2_output_bolt_7",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.2101430968414206e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 59,
+      "name": "J2_output_bolt_8",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.304468224196171e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 60,
+      "name": "J2_cover_M2p5_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 9.112710586123285e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 61,
+      "name": "J2_cover_M2p5_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 9.110490140074035e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 62,
+      "name": "J2_cover_M2p5_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0417222640057844e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 63,
+      "name": "J2_cover_M2p5_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0421663532156344e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 66,
+      "name": "J3_structural_heat_spreader_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 9.847678228425139e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 67,
+      "name": "J3_rear_service_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0103029524088925e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 86,
+      "name": "J3_output_bolt_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.1368683772161603e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 87,
+      "name": "J3_output_bolt_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.681944052568724e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 88,
+      "name": "J3_output_bolt_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.2101430968414206e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 89,
+      "name": "J3_output_bolt_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.2529534621517087e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 90,
+      "name": "J3_output_bolt_5",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.2101430968414206e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 91,
+      "name": "J3_output_bolt_6",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.349676423018536e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 92,
+      "name": "J3_output_bolt_7",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.2101430968414206e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 93,
+      "name": "J3_output_bolt_8",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.9539925233402755e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 94,
+      "name": "J3_cover_M2p5_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.7822188997106423e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 95,
+      "name": "J3_cover_M2p5_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.781108676686017e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 96,
+      "name": "J3_cover_M2p5_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.155564781171961e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 97,
+      "name": "J3_cover_M2p5_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.155564781171961e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 100,
+      "name": "J4_structural_heat_spreader_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.5412116027846423e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 101,
+      "name": "J4_rear_service_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.551914400963142e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 116,
+      "name": "J4_output_bolt_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.063416270128073e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 117,
+      "name": "J4_output_bolt_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.730349362740526e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 118,
+      "name": "J4_output_bolt_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.8191672047105385e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 119,
+      "name": "J4_output_bolt_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.864375403532904e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 120,
+      "name": "J4_output_bolt_5",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.4033219031261979e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 121,
+      "name": "J4_output_bolt_6",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.949196856316121e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 122,
+      "name": "J4_output_bolt_7",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.4077627952246985e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 123,
+      "name": "J4_output_bolt_8",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.842170943040401e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 124,
+      "name": "J4_output_bolt_9",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.774758283725532e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 125,
+      "name": "J4_output_bolt_10",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.752553823233029e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 126,
+      "name": "J4_cover_M2p5_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.324807013565078e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 127,
+      "name": "J4_cover_M2p5_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.3292479056635784e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 128,
+      "name": "J4_cover_M2p5_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.162714451969805e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 129,
+      "name": "J4_cover_M2p5_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.1649348980190553e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 132,
+      "name": "J5_structural_heat_spreader_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.5408785358772548e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 133,
+      "name": "J5_rear_service_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.773959005888173e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 152,
+      "name": "J5_output_bolt_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.196643033083092e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 153,
+      "name": "J5_output_bolt_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.8191672047105385e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 154,
+      "name": "J5_output_bolt_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.930189507173054e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 155,
+      "name": "J5_output_bolt_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.90878432451791e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 156,
+      "name": "J5_output_bolt_5",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.4632739464559563e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 157,
+      "name": "J5_output_bolt_6",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.37108160567368e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 158,
+      "name": "J5_output_bolt_7",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.4632739464559563e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 159,
+      "name": "J5_output_bolt_8",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.90878432451791e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 160,
+      "name": "J5_output_bolt_9",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.885780586188048e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 161,
+      "name": "J5_output_bolt_10",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.863576125695545e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 162,
+      "name": "J5_cover_M2p5_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0237366510068568e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 163,
+      "name": "J5_cover_M2p5_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0235146064019318e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 164,
+      "name": "J5_cover_M2p5_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0401679517713092e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 165,
+      "name": "J5_cover_M2p5_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0400569294688466e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 168,
+      "name": "J6_structural_heat_spreader_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.5434320488338926e-12,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 169,
+      "name": "J6_rear_service_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.773959005888173e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 188,
+      "name": "J6_output_bolt_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.851852005074761e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 189,
+      "name": "J6_output_bolt_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.865174681370263e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 190,
+      "name": "J6_output_bolt_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.865174681370263e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 191,
+      "name": "J6_output_bolt_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.9517720772910252e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 192,
+      "name": "J6_output_bolt_5",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.042499420123022e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 193,
+      "name": "J6_output_bolt_6",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.5831780331154732e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 194,
+      "name": "J6_output_bolt_7",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.0413891970983968e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 195,
+      "name": "J6_output_bolt_8",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.949551631241775e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 196,
+      "name": "J6_output_bolt_9",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.865174681370263e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 197,
+      "name": "J6_output_bolt_10",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.8662849043948881e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 198,
+      "name": "J6_cover_M2p5_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.326672684688674e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 199,
+      "name": "J6_cover_M2p5_2",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.315570454442422e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 200,
+      "name": "J6_cover_M2p5_3",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 9.958700530887654e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 201,
+      "name": "J6_cover_M2p5_4",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 9.969802761133906e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 210,
+      "name": "upper_service_panel_-1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.771561172376096e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 211,
+      "name": "upper_panel_screw_-1_-19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.815214645262131e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 212,
+      "name": "upper_panel_screw_-1_-19_220",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.7630341631047486e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 213,
+      "name": "upper_panel_screw_-1_19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.773959005888173e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 214,
+      "name": "upper_panel_screw_-1_19_220",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.725109192804666e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 215,
+      "name": "upper_service_panel_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.993605777301127e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 216,
+      "name": "upper_panel_screw_1_-19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.19824158875781e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 217,
+      "name": "upper_panel_screw_1_-19_220",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.708944180085382e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 218,
+      "name": "upper_panel_screw_1_19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.43769498715119e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 219,
+      "name": "upper_panel_screw_1_19_220",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.960299086562372e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 220,
+      "name": "fore_service_panel_-1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.709743457922741e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 221,
+      "name": "fore_panel_screw_-1_-19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.8207657603852567e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 222,
+      "name": "fore_panel_screw_-1_-19_114",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.751931932858497e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 223,
+      "name": "fore_panel_screw_-1_19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.779510121011299e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 224,
+      "name": "fore_panel_screw_-1_19_114",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 4.716227408607665e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 225,
+      "name": "fore_service_panel_1",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.7208456881689926e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 226,
+      "name": "fore_panel_screw_1_-19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.0872192862952943e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 227,
+      "name": "fore_panel_screw_1_-19_114",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.7755575615628914e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 228,
+      "name": "fore_panel_screw_1_19_96",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 8.593126210598712e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 229,
+      "name": "fore_panel_screw_1_19_114",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.926992395823618e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 235,
+      "name": "gripper_bridge_8",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 7.828441450641321e-09,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 241,
+      "name": "right_jaw_carriage_0",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.55351295663786e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 250,
+      "name": "left_carriage",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.220446049250313e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 260,
+      "name": "CB2_captured_spring_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.4654943925052066e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 261,
+      "name": "CB2_spring_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.7763568394002505e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 266,
+      "name": "CB3_captured_spring_case",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.3988810110276972e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 267,
+      "name": "CB3_spring_cover",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 2.886579864025407e-15,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 272,
+      "name": "base_weldment",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 5.222723120645867e-08,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 273,
+      "name": "turret_U_yoke",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.6187051699034782e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 274,
+      "name": "upper_structural_frame",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.9984014443252818e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 275,
+      "name": "fore_structural_frame",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 3.774758283725532e-14,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 276,
+      "name": "wrist_roll_yoke",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 1.8607337892717624e-13,
+      "volume_relative_error_below_1e_5": true
+    },
+    {
+      "id": 277,
+      "name": "wrist_bend_frame",
+      "valid": true,
+      "solid_count": 1,
+      "roundtrip_volume_relative_error": 5.440092820663267e-15,
+      "volume_relative_error_below_1e_5": true
+    }
+  ],
+  "assembly_part_instances": 278,
+  "assembly_solid_count": 280,
+  "inherited_multisolid_instances": [
+    {
+      "id": 263,
+      "name": "CB2_torsion_spring",
+      "solids": 2,
+      "valid": true,
+      "changed": false
+    },
+    {
+      "id": 269,
+      "name": "CB3_torsion_spring",
+      "solids": 2,
+      "valid": true,
+      "changed": false
+    }
+  ],
+  "reference_pose_time_s": 2.5,
+  "archived_source_sha256": "48b3dcf993f78a9e1f386c8458644bb5829d627c895b88e58e616ae14aa565a0",
+  "geometry_scope": "Actual BREP fillets/chamfers and hex recesses; prototype review, not a production release",
+  "dynamics_revalidated": false
+}
