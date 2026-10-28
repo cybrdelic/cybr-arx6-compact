@@ -1,0 +1,32 @@
+name: ARX Cycles runtime bootstrap
+on:
+  push:
+    branches: ['render/cycles-bootstrap-20261028']
+    paths: ['.github/workflows/arx-cycles-bootstrap.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-runtime:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Select CPython 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Download official Blender runtime and offline dependencies
+        run: |
+          mkdir -p wheelhouse
+          python -m pip download --only-binary=:all: --dest wheelhouse 'bpy==5.2.3'
+          echo '8ef4a335930d647233c661ae21be1abf81207af33e1440fc5a4fc2f2f2d44db7  wheelhouse/bpy-5.2.3-cp313-cp313-manylinux_2_28_x86_64.whl' | sha256sum --check --strict
+          sha256sum wheelhouse/* > wheelhouse/SHA256SUMS.txt
+          python --version > wheelhouse/PYTHON.txt
+      - name: Export reusable offline runtime
+        uses: actions/upload-artifact@v4
+        with:
+          name: arx-cycles-bpy-5.2.3-cp313-linux
+          path: wheelhouse/
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 3
