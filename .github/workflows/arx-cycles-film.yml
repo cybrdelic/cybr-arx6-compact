@@ -1,0 +1,180 @@
+name: ARX Cycles design film
+on:
+  push:
+    branches: ['render/cycles-bootstrap-20261028']
+    paths: ['.github/workflows/arx-cycles-film.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '4'
+  PYTHONUNBUFFERED: '1'
+jobs:
+  scene:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    outputs:
+      chunks: ${{ steps.matrix.outputs.chunks }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repository
+          sparse-checkout: |
+            rendering/cycles-studio-transfer
+            revisions/p6-a-petg
+            revisions/p6b-print-first
+            revisions/p5-refined/assets
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore hash-pinned authored source
+        shell: python
+        run: |
+          from pathlib import Path
+          import base64,hashlib,tarfile,io
+          p=Path('repository/rendering/cycles-studio-transfer')
+          data=base64.b64decode(''.join((p/f'source-{i:02d}.b64').read_text().strip() for i in range(5)),validate=True)
+          assert hashlib.sha256(data).hexdigest()=='509c1a8cc9fdf6fdc9e4e0db959363e4777161f5d8d6f9b8b03f60ead7243b45'
+          root=Path('ARX-Cycles-Studio');root.mkdir()
+          with tarfile.open(fileobj=io.BytesIO(data),mode='r:xz') as t:t.extractall(root,filter='data')
+          for d in ['assets','reports','delivery','logs','renders','exr']:(root/d).mkdir(exist_ok=True)
+      - name: Install pinned CAD and production rendering dependencies
+        run: python -m pip install -r ARX-Cycles-Studio/requirements-build.txt
+      - name: Recover original approved sigil
+        shell: python
+        run: |
+          from pathlib import Path
+          import urllib.request,hashlib
+          u='https://raw.githubusercontent.com/cybrdelic/cybr-portfolio/main/cybr-elements/outputs/cybrdelic-type/elements/motion/bending/sigils/02/artwork-02.png'
+          data=urllib.request.urlopen(u,timeout=60).read()
+          assert hashlib.sha256(data).hexdigest()=='4cd262ddc0c84f3acf081875ec1c389fbf05e21bb21afa10fdf54bc377ab5827'
+          Path('ARX-Cycles-Studio/assets/sigil.png').write_bytes(data)
+      - name: Build scene from published actual CAD
+        run: |
+          python ARX-Cycles-Studio/source/cad_bridge.py --repository repository
+          python ARX-Cycles-Studio/tests/preflight.py 2>&1 | tee ARX-Cycles-Studio/logs/preflight.log
+          python -m pip freeze > ARX-Cycles-Studio/reports/installed-packages.txt
+      - name: Make finite render work list
+        id: matrix
+        shell: python
+        run: |
+          import os,json
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('chunks='+json.dumps(list(range(96)))+'\n')
+      - name: Preserve reproducible scene inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: arx-cycles-scene
+          path: ARX-Cycles-Studio/
+          compression-level: 4
+          retention-days: 7
+          if-no-files-found: error
+  render:
+    needs: scene
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      max-parallel: 40
+      matrix:
+        chunk: ${{ fromJSON(needs.scene.outputs.chunks) }}
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/download-artifact@v4
+        with:
+          name: arx-cycles-scene
+          path: ARX-Cycles-Studio
+      - name: Install pinned render runtime
+        run: python -m pip install -r ARX-Cycles-Studio/requirements-render.txt
+      - name: Trace native frames without geometry or effect reduction
+        run: |
+          mkdir -p ARX-Cycles-Studio/delivery ARX-Cycles-Studio/logs
+          start=$(( ${{ matrix.chunk }} * 12 ))
+          end=$(( start + 12 ))
+          extra=''
+          if [ '${{ matrix.chunk }}' = '0' ]; then extra='--save-scene'; fi
+          python ARX-Cycles-Studio/source/film.py --start "$start" --end "$end" --width 1920 --height 804 --samples 128 --min-samples 32 --noise 0.008 --output ARX-Cycles-Studio/film $extra > ARX-Cycles-Studio/logs/render-${{ matrix.chunk }}.log 2>&1
+          tail -n 30 ARX-Cycles-Studio/logs/render-${{ matrix.chunk }}.log
+      - name: Preserve completed frames even if a later frame fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arx-cycles-chunk-${{ matrix.chunk }}
+          path: |
+            ARX-Cycles-Studio/film/
+            ARX-Cycles-Studio/logs/render-${{ matrix.chunk }}.log
+            ARX-Cycles-Studio/delivery/*.blend
+          compression-level: 0
+          retention-days: 7
+          if-no-files-found: warn
+  reference:
+    needs: scene
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        frame: [12,13,156,157]
+        seed: [9029,19231]
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/download-artifact@v4
+        with:
+          name: arx-cycles-scene
+          path: ARX-Cycles-Studio
+      - run: python -m pip install -r ARX-Cycles-Studio/requirements-render.txt
+      - name: Independent high-sample native reference region
+        run: |
+          python ARX-Cycles-Studio/source/reference.py --frame ${{ matrix.frame }} --samples 1024 --seed ${{ matrix.seed }} --out ARX-Cycles-Studio/reference > ARX-Cycles-Studio/logs/reference.log 2>&1
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arx-cycles-reference-${{ matrix.frame }}-${{ matrix.seed }}
+          path: |
+            ARX-Cycles-Studio/reference/
+            ARX-Cycles-Studio/logs/reference.log
+          compression-level: 0
+          retention-days: 7
+  assemble:
+    needs: [scene,render]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/download-artifact@v4
+        with:
+          name: arx-cycles-scene
+          path: ARX-Cycles-Studio
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: arx-cycles-chunk-*
+          path: chunks
+      - run: |
+          python -m pip install numpy==2.3.5 scipy==1.17.0 pillow==12.3.0
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Verify all 1152 native frames, encode, and independently decode
+        run: |
+          python ARX-Cycles-Studio/source/finalize.py --chunks chunks --out ARX-Cycles-Studio/delivery
+          rm -rf ARX-Cycles-Studio/delivery/verified-frames
+      - name: Collect editable production scene
+        shell: python
+        run: |
+          from pathlib import Path
+          import shutil
+          for p in Path('chunks').glob('**/*.blend'):shutil.copy2(p,Path('ARX-Cycles-Studio/delivery')/p.name)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arx-cycles-final-delivery
+          path: ARX-Cycles-Studio/delivery/
+          compression-level: 0
+          retention-days: 7
+          if-no-files-found: error
